@@ -186,9 +186,9 @@ const Home = (props) => {
             ></BlogPostCard4>
           </div>
           <BlogPostCard4
+            date="JULY 10"
             image_src="https://images.unsplash.com/photo-1510525009512-ad7fc13eefab?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJvYXR8ZW58MHx8fHwxNjI2NDUyODIx&amp;ixlib=rb-1.2.1&amp;w=1000"
             rootClassName="rootClassName4"
-            date="JULY 10"
           ></BlogPostCard4>
         </div>
         <div className="home-testimonial">
