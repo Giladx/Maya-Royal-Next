@@ -6,7 +6,7 @@ const TestimonialCard2 = (props) => {
   return (
     <>
       <div
-        className={`testimonial-card2-testimonial-card gradient-box ${props.rootClassName} `}
+        className={`testimonial-card2-testimonial-card ${props.rootClassName} `}
       >
         <div className="testimonial-card2-testimonial">
           <svg viewBox="0 0 1024 1024" className="testimonial-card2-icon">

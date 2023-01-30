@@ -23,19 +23,20 @@ const BlogPostCard4 = (props) => {
         <div>
           <DangerousHTML
             html={`<style>
-  .gradient-box {
-  box-sizing: border-box;
-  margin: .2rem auto .2rem;
-  padding: .2rem;
-  width: 80%;
-  max-width: 25rem;
-  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
-  border: 10px solid transparent;
-  background-repeat: no-repeat;
-  background-origin: padding-box, border-box;
-}
-</style>`}
+    .gradient-box {
+    box-sizing: border-box;
+    margin: .2rem auto .2rem;
+    padding: .2rem;
+    width: 80%;
+    max-width: 25rem;
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                  radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    border: 3px solid transparent;
+    background-repeat: no-repeat;
+    background-origin: padding-box, border-box;
+  }
+</style>
+`}
           ></DangerousHTML>
         </div>
       </div>

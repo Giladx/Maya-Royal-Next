@@ -5,9 +5,11 @@ import PropTypes from 'prop-types'
 const GalleryCard2 = (props) => {
   return (
     <>
-      <div className={`gallery-card2-gallery-card ${props.rootClassName} `}>
+      <div
+        className={`gallery-card2-gallery-card gradient-box ${props.rootClassName} `}
+      >
         <div className="gallery-card2-container">
-          <div className="gallery-card2-container1 gradient-box">
+          <div className="gallery-card2-container1">
             <h2 className="gallery-card2-text">{props.title}</h2>
             <span className="gallery-card2-text1">{props.description}</span>
             <span className="gallery-card2-text2">SHOW MORE</span>
