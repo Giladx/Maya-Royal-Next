@@ -44,7 +44,7 @@ const TestimonialCard4 = (props) => {
             margin-bottom: var(--dl-space-space-halfunit);
           }
           .testimonial-card4-text {
-            color: var(--dl-color-gray-500);
+            color: var(--dl-color-gray-black);
             font-size: 1.15rem;
             padding-top: var(--dl-space-space-threeunits);
             padding-bottom: var(--dl-space-space-threeunits);

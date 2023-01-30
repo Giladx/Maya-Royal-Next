@@ -467,7 +467,7 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
-            background-color: rgb(25, 84, 0);
+            background-color: #2f6913;
           }
           .home-button:hover {
             transform: scale(1.02);
@@ -476,7 +476,7 @@ const Home = (props) => {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
-            max-width: 100%;
+            max-width: var(--dl-size-size-maxwidth);
             flex-direction: column;
           }
           .home-text13 {

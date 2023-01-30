@@ -41,16 +41,18 @@ const TestimonialCard2 = (props) => {
             justify-content: space-between;
           }
           .testimonial-card2-icon {
+            fill: var(--dl-color-gray-black);
             width: var(--dl-size-size-small);
             flex-shrink: 0;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .testimonial-card2-text {
-            color: var(--dl-color-gray-500);
+            color: var(--dl-color-gray-black);
             font-size: 1.15rem;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .testimonial-card2-text1 {
+            color: var(--dl-color-gray-black);
             font-size: 1.5rem;
             font-weight: 600;
           }
