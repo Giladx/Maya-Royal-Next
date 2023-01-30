@@ -171,12 +171,12 @@ const Home = (props) => {
         </div>
         <div className="home-blog">
           <BlogPostCard4
-            label="Business &amp; Travel"
+            label="Travel"
             rootClassName="rootClassName1"
           ></BlogPostCard4>
           <div className="home-container11">
             <BlogPostCard4
-              label="Nature"
+              label="Club Party"
               image_src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHRyYXZlbHxlbnwwfHx8fDE2MjY0MzI2Mjc&amp;ixlib=rb-1.2.1&amp;h=1000"
               rootClassName="rootClassName2"
             ></BlogPostCard4>
@@ -186,6 +186,7 @@ const Home = (props) => {
             ></BlogPostCard4>
           </div>
           <BlogPostCard4
+            date="JULY 10"
             image_src="https://images.unsplash.com/photo-1510525009512-ad7fc13eefab?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJvYXR8ZW58MHx8fHwxNjI2NDUyODIx&amp;ixlib=rb-1.2.1&amp;w=1000"
             rootClassName="rootClassName4"
           ></BlogPostCard4>
@@ -467,7 +468,7 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
-            background-color: #2f6913;
+            background-color: #a17208;
           }
           .home-button:hover {
             transform: scale(1.02);
@@ -629,7 +630,7 @@ const Home = (props) => {
           .home-footer {
             width: 100%;
             display: flex;
-            max-width: 100%;
+            max-width: var(--dl-size-size-maxwidth);
             align-items: center;
             padding-top: var(--dl-space-space-twounits);
             padding-left: var(--dl-space-space-threeunits);

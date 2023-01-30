@@ -31,6 +31,7 @@ const TestimonialCard2 = (props) => {
             background: #fff;
             box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
             align-items: center;
+            border-radius: 10px;
             justify-content: space-between;
           }
           .testimonial-card2-testimonial {

@@ -35,6 +35,7 @@ const TestimonialCard4 = (props) => {
             background: #fff;
             box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
             align-items: stretch;
+            border-radius: 10px;
             flex-direction: column;
             justify-content: flex-start;
           }

@@ -24,7 +24,7 @@ const FeatureCard4 = (props) => {
             justify-content: flex-start;
           }
           .feature-card4-icon {
-            fill: var(--dl-color-gray-500);
+            fill: #714e90;
             width: 2rem;
             height: 2rem;
             margin-bottom: var(--dl-space-space-unit);

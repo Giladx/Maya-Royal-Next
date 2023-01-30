@@ -27,6 +27,7 @@ const GalleryCard2 = (props) => {
             display: flex;
             position: relative;
             align-items: center;
+            border-radius: 10px;
             flex-direction: column;
             justify-content: center;
           }
@@ -38,6 +39,7 @@ const GalleryCard2 = (props) => {
             z-index: 1;
             transition: 0.3s;
             align-items: flex-start;
+            border-radius: 10px;
             flex-direction: column;
             justify-content: center;
             background-color: #00000096;
@@ -51,6 +53,7 @@ const GalleryCard2 = (props) => {
             display: flex;
             padding: var(--dl-space-space-twounits);
             align-items: center;
+            border-radius: 10px;
             flex-direction: column;
             justify-content: center;
           }
@@ -81,6 +84,7 @@ const GalleryCard2 = (props) => {
             height: 100%;
             position: absolute;
             object-fit: cover;
+            border-radius: 10px;
           }
           .gallery-card2-root-class-name {
             flex: 1;

@@ -1,11 +1,14 @@
 import React from 'react'
 
+import DangerousHTML from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 const BlogPostCard4 = (props) => {
   return (
     <>
-      <div className={`blog-post-card4-blog-post-card ${props.rootClassName} `}>
+      <div
+        className={`blog-post-card4-blog-post-card gradient-box ${props.rootClassName} `}
+      >
         <img
           alt={props.image_alt}
           src={props.image_src}
@@ -17,6 +20,24 @@ const BlogPostCard4 = (props) => {
           <div className="blog-post-card4-separator"></div>
           <span className="blog-post-card4-text2">{props.label}</span>
         </div>
+        <div>
+          <DangerousHTML
+            html={`<style>
+  .gradient-box {
+  box-sizing: border-box;
+  margin: 1rem auto 2rem;
+  padding: 1rem;
+  width: 80%;
+  max-width: 25rem;
+  background: linear-gradient(#222, #222), 
+              linear-gradient(to right, red, purple);
+  border: 10px solid transparent;
+  background-repeat: no-repeat;
+  background-origin: padding-box, border-box;
+}
+</style>`}
+          ></DangerousHTML>
+        </div>
       </div>
       <style jsx>
         {`
@@ -26,6 +47,7 @@ const BlogPostCard4 = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
             transition: 0.3s;
+            border-radius: 10px;
             flex-direction: column;
             justify-content: space-between;
           }
@@ -37,16 +59,21 @@ const BlogPostCard4 = (props) => {
             height: 100%;
             max-height: 50rem;
             object-fit: cover;
-            border-radius: 0px;
+            border-radius: 10px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
           }
           .blog-post-card4-container {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-twounits);
             align-items: center;
+            border-radius: 10px;
             flex-direction: column;
             justify-content: space-between;
             background-color: var(--dl-color-gray-white);
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
           }
           .blog-post-card4-text {
             color: var(--dl-color-gray-500);
