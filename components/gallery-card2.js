@@ -7,7 +7,7 @@ const GalleryCard2 = (props) => {
     <>
       <div className={`gallery-card2-gallery-card ${props.rootClassName} `}>
         <div className="gallery-card2-container">
-          <div className="gallery-card2-container1">
+          <div className="gallery-card2-container1 gradient-box">
             <h2 className="gallery-card2-text">{props.title}</h2>
             <span className="gallery-card2-text1">{props.description}</span>
             <span className="gallery-card2-text2">SHOW MORE</span>
