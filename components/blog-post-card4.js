@@ -47,6 +47,7 @@ const BlogPostCard4 = (props) => {
             box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
             transition: 0.3s;
             border-radius: 10px;
+            margin-bottom: var(--dl-space-space-twounits);
             flex-direction: column;
             justify-content: space-between;
           }
