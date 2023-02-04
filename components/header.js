@@ -12,7 +12,7 @@ const Header = (props) => {
             <a className="header-link">
               <img
                 alt={props.Logo_alt}
-                src={props.Logo_src}
+                src={props.LogoSrcURL}
                 loading="lazy"
                 className="header-logo"
               />
@@ -28,30 +28,72 @@ const Header = (props) => {
               data-role="Nav"
               className="header-nav"
             >
-              <span data-aos="fade" className="header-text">
-                {props.text}
-              </span>
-              <span data-aos="fade" className="header-text01">
-                {props.text1}
-              </span>
-              <span data-aos="fade" className="header-text02">
-                {props.text2}
-              </span>
-              <span data-aos="fade" className="header-text03">
-                {props.text3}
-              </span>
-              <span data-aos="fade" className="header-text04">
-                {props.text4}
-              </span>
+              <a
+                href={props.LinkURL1}
+                data-aos="fade"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="header-link01"
+              >
+                {props.LinkText1}
+              </a>
+              <a
+                href={props.LinkURL2}
+                data-aos="fade"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="header-link02"
+              >
+                {props.LinkText2}
+              </a>
+              <a
+                href={props.LinkURL3}
+                data-aos="fade"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="header-link03"
+              >
+                {props.LinkText3}
+              </a>
+              <a
+                href={props.LinkURL4}
+                data-aos="fade"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="header-link04"
+              >
+                {props.LinkText4}
+              </a>
+              <a
+                href={props.LinkURL5}
+                data-aos="fade"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="header-link05"
+              >
+                {props.LinkText5}
+              </a>
             </nav>
           </div>
           <div data-thq="thq-navbar-btn-group" className="header-btn-group">
-            <button data-aos="fade" className="header-login button">
-              {props.Login}
-            </button>
-            <button data-aos="fade" className="header-register button">
+            <a
+              href={props.LinkButton3}
+              data-aos="fade"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="header-login button"
+            >
+              {props.LinkButton1}
+            </a>
+            <a
+              href={props.LinkButton2}
+              data-aos="fade"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="header-register button"
+            >
               {props.Register}
-            </button>
+            </a>
           </div>
           <div data-thq="thq-burger-menu" className="header-burger-menu">
             <svg viewBox="0 0 1024 1024" className="header-icon">
@@ -66,9 +108,9 @@ const Header = (props) => {
             >
               <div className="header-container">
                 <Link href="/">
-                  <a className="header-link1">
+                  <a className="header-link06">
                     <img
-                      alt={props.image_alt}
+                      alt={props.MLogoAlt}
                       src={props.image_src}
                       className="header-image"
                     />
@@ -85,15 +127,64 @@ const Header = (props) => {
                 data-role="Nav"
                 className="header-nav2"
               >
-                <span className="header-text05">{props.text5}</span>
-                <span className="header-text06">{props.text6}</span>
-                <span className="header-text07">{props.text7}</span>
-                <span className="header-text08">{props.text8}</span>
-                <span className="header-text09">{props.text9}</span>
+                <a
+                  href={props.MLinkURL1}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="header-link07"
+                >
+                  {props.MLinkText1}
+                </a>
+                <a
+                  href={props.MLinkURL2}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="header-link08"
+                >
+                  {props.MLinkText2}
+                </a>
+                <a
+                  href={props.MLinkURL3}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="header-link09"
+                >
+                  {props.MLinkText3}
+                </a>
+                <a
+                  href={props.MLinkURL4}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="header-link10"
+                >
+                  {props.MLinkText4}
+                </a>
+                <a
+                  href={props.MLinkURL5}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="header-link11"
+                >
+                  {props.MLinkText5}
+                </a>
               </nav>
               <div className="header-container1">
-                <button className="header-login1 button">{props.Login1}</button>
-                <button className="button">{props.Register1}</button>
+                <a
+                  href={props.MButtonLink1}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="header-login1 button"
+                >
+                  {props.MButtonText1}
+                </a>
+                <a
+                  href={props.MButtonLink2}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="header-register1 button"
+                >
+                  {props.MButtonText2}
+                </a>
               </div>
             </div>
             <div className="header-icon-group">
@@ -156,34 +247,39 @@ const Header = (props) => {
             align-items: center;
             flex-direction: row;
           }
-          .header-text {
+          .header-link01 {
             font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
+            text-decoration: none;
           }
-          .header-text01 {
+          .header-link02 {
             font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
             margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
-          .header-text02 {
+          .header-link03 {
             font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
             margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
-          .header-text03 {
+          .header-link04 {
             font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
             margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
-          .header-text04 {
+          .header-link05 {
             font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
             margin-left: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
           .header-btn-group {
             display: flex;
@@ -197,11 +293,13 @@ const Header = (props) => {
             font-weight: 700;
             border-width: 0px;
             margin-right: var(--dl-space-space-twounits);
+            text-decoration: none;
           }
           .header-register {
             font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
+            text-decoration: none;
           }
           .header-burger-menu {
             display: none;
@@ -239,7 +337,7 @@ const Header = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
-          .header-link1 {
+          .header-link06 {
             display: contents;
           }
           .header-image {
@@ -261,35 +359,40 @@ const Header = (props) => {
             align-items: flex-start;
             flex-direction: column;
           }
-          .header-text05 {
+          .header-link07 {
             font-size: 4em;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
-          .header-text06 {
+          .header-link08 {
             font-size: 4em;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
-          .header-text07 {
+          .header-link09 {
             font-size: 4em;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
-          .header-text08 {
+          .header-link10 {
             font-size: 4em;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
-          .header-text09 {
+          .header-link11 {
             font-size: 4em;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
           .header-container1 {
             flex: 0 0 auto;
@@ -301,6 +404,10 @@ const Header = (props) => {
           }
           .header-login1 {
             margin-right: var(--dl-space-space-twounits);
+            text-decoration: none;
+          }
+          .header-register1 {
+            text-decoration: none;
           }
           .header-icon-group {
             display: flex;
@@ -320,19 +427,19 @@ const Header = (props) => {
             height: var(--dl-size-size-xsmall);
           }
           @media (max-width: 1200px) {
-            .header-text {
+            .header-link01 {
               font-size: 1em;
             }
-            .header-text01 {
+            .header-link02 {
               font-size: 1em;
             }
-            .header-text02 {
+            .header-link03 {
               font-size: 1em;
             }
-            .header-text03 {
+            .header-link04 {
               font-size: 1em;
             }
-            .header-text04 {
+            .header-link05 {
               font-size: 1em;
             }
             .header-login {
@@ -380,22 +487,40 @@ const Header = (props) => {
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
             }
+            .header-login1 {
+              font-size: 2em;
+            }
+            .header-register1 {
+              font-size: 2em;
+            }
+            .header-icon04 {
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
+            }
+            .header-icon06 {
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
+            }
+            .header-icon08 {
+              width: var(--dl-size-size-small);
+              height: var(--dl-size-size-small);
+            }
           }
           @media (max-width: 767px) {
             .header-navbar-interactive {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .header-text01 {
+            .header-link02 {
               margin-left: var(--dl-space-space-unit);
             }
-            .header-text02 {
+            .header-link03 {
               margin-left: var(--dl-space-space-unit);
             }
-            .header-text03 {
+            .header-link04 {
               margin-left: var(--dl-space-space-unit);
             }
-            .header-text04 {
+            .header-link05 {
               margin-left: var(--dl-space-space-unit);
             }
           }
@@ -418,45 +543,73 @@ const Header = (props) => {
 }
 
 Header.defaultProps = {
-  text7: 'Restaurant',
-  text2: 'Restaurant',
-  text: 'About',
-  Login1: 'Login',
-  Register1: 'Register',
-  text3: 'Club',
-  Logo_src: '/playground_assets/mayalogo-1500h.webp',
-  text5: 'About',
-  text4: 'Stuff',
-  Login: 'Contact',
+  MLinkText3: 'Restaurant',
+  LinkText3: 'Restaurant',
+  LinkText1: 'About',
+  MButtonText1: 'Order',
+  MButtonText2: 'Contact',
+  LinkText4: 'Club',
+  LogoSrcURL: '/playground_assets/mayalogo-1500h.webp',
+  MLinkText1: 'About',
+  LinkText5: 'Stuff',
+  LinkButton1: 'Contact',
   image_src: '/playground_assets/mayalogo-1500h.webp',
-  text9: 'Stuff',
+  MLinkText5: 'Stuff',
   Register: 'Order',
   Logo_alt: 'logo',
-  text8: 'Club',
-  text1: 'Resort',
-  text6: 'Resort',
-  image_alt: 'image',
+  MLinkText4: 'Club',
+  LinkText2: 'Resort',
+  MLinkText2: 'Resort',
+  MLogoAlt: 'image',
+  LinkURL1: '',
+  LinkURL2: '',
+  LinkURL3: '',
+  LinkURL4: '',
+  LinkURL5: '',
+  LinkButton3: '',
+  LinkButton2: '',
+  MLinkURL1: '',
+  MLinkURL2: '',
+  MLinkURL3: '',
+  MLinkURL4: '',
+  MLinkURL5: '',
+  MButtonLink1: '',
+  MButtonLink2: '',
 }
 
 Header.propTypes = {
-  text7: PropTypes.string,
-  text2: PropTypes.string,
-  text: PropTypes.string,
-  Login1: PropTypes.string,
-  Register1: PropTypes.string,
-  text3: PropTypes.string,
-  Logo_src: PropTypes.string,
-  text5: PropTypes.string,
-  text4: PropTypes.string,
-  Login: PropTypes.string,
+  MLinkText3: PropTypes.string,
+  LinkText3: PropTypes.string,
+  LinkText1: PropTypes.string,
+  MButtonText1: PropTypes.string,
+  MButtonText2: PropTypes.string,
+  LinkText4: PropTypes.string,
+  LogoSrcURL: PropTypes.string,
+  MLinkText1: PropTypes.string,
+  LinkText5: PropTypes.string,
+  LinkButton1: PropTypes.string,
   image_src: PropTypes.string,
-  text9: PropTypes.string,
+  MLinkText5: PropTypes.string,
   Register: PropTypes.string,
   Logo_alt: PropTypes.string,
-  text8: PropTypes.string,
-  text1: PropTypes.string,
-  text6: PropTypes.string,
-  image_alt: PropTypes.string,
+  MLinkText4: PropTypes.string,
+  LinkText2: PropTypes.string,
+  MLinkText2: PropTypes.string,
+  MLogoAlt: PropTypes.string,
+  LinkURL1: PropTypes.string,
+  LinkURL2: PropTypes.string,
+  LinkURL3: PropTypes.string,
+  LinkURL4: PropTypes.string,
+  LinkURL5: PropTypes.string,
+  LinkButton3: PropTypes.string,
+  LinkButton2: PropTypes.string,
+  MLinkURL1: PropTypes.string,
+  MLinkURL2: PropTypes.string,
+  MLinkURL3: PropTypes.string,
+  MLinkURL4: PropTypes.string,
+  MLinkURL5: PropTypes.string,
+  MButtonLink1: PropTypes.string,
+  MButtonLink2: PropTypes.string,
 }
 
 export default Header
