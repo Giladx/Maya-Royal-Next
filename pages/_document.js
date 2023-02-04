@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-
 class CustomDocument extends Document {
   render() {
     return (
@@ -39,7 +38,7 @@ class CustomDocument extends Document {
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> --><noscript>',
+                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> -->\n<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />\n<noscript>',
             }}
           ></noscript>
         </Head>
@@ -49,7 +48,7 @@ class CustomDocument extends Document {
           <div
             dangerouslySetInnerHTML={{
               __html:
-                "<!-- Your body code here -->\n<!-- <script type=\"text/javascript\"> ... </script> --> \n    <script data-section-id='header' src='https://unpkg.com/@teleporthq/teleport-custom-scripts'></script>",
+                '<!-- Your body code here -->\n<!-- <script type="text/javascript"> ... </script> --> \n<script data-section-id=\'header\' src=\'https://unpkg.com/@teleporthq/teleport-custom-scripts\'></script>\n<script src="https://unpkg.com/aos@next/dist/aos.js"></script>\n  <script>\n    AOS.init();\n  </script>',
             }}
           ></div>
         </body>
@@ -57,5 +56,4 @@ class CustomDocument extends Document {
     )
   }
 }
-
 export default CustomDocument

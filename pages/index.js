@@ -12,9 +12,9 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Maya Royal</title>
+          <title>Maya Royale</title>
           <meta name="description" content="Resort | Restaurant | Club" />
-          <meta property="og:title" content="Maya Royal" />
+          <meta property="og:title" content="Maya Royale" />
           <meta
             property="og:description"
             content="Resort | Restaurant | Club"
@@ -40,16 +40,28 @@ const Home = (props) => {
               data-role="Nav"
               className="home-nav"
             >
-              <span>About</span>
-              <span className="home-text01">Resort</span>
-              <span className="home-text02">Restaurant</span>
-              <span className="home-text03">Club</span>
-              <span className="home-text04">Stuff</span>
+              <span data-aos="fade">About</span>
+              <span data-aos="fade" className="home-text01">
+                Resort
+              </span>
+              <span data-aos="fade" className="home-text02">
+                Restaurant
+              </span>
+              <span data-aos="fade" className="home-text03">
+                Club
+              </span>
+              <span data-aos="fade" className="home-text04">
+                Stuff
+              </span>
             </nav>
           </div>
           <div data-thq="thq-navbar-btn-group" className="home-btn-group">
-            <button className="home-login button">Contact</button>
-            <button className="button">Order</button>
+            <button data-aos="fade" className="home-login button">
+              Contact
+            </button>
+            <button data-aos="fade" className="button">
+              Order
+            </button>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
             <svg viewBox="0 0 1024 1024" className="home-icon">
