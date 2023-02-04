@@ -27,7 +27,7 @@ const Home = (props) => {
         <header data-thq="thq-navbar" className="home-navbar-interactive">
           <img
             alt="logo"
-            src="/playground_assets/mayalogo-1500h.png"
+            src="/playground_assets/mayalogo-1500h.webp"
             className="home-logo"
           />
           <div
@@ -77,7 +77,7 @@ const Home = (props) => {
               <div className="home-container01">
                 <img
                   alt="image"
-                  src="/playground_assets/mayalogo-1500h.png"
+                  src="/playground_assets/mayalogo-1500h.webp"
                   className="home-image"
                 />
                 <div data-thq="thq-close-menu" className="home-menu-close">
@@ -305,7 +305,7 @@ const Home = (props) => {
             width: 100%;
             display: flex;
             position: relative;
-            align-items: center;
+            align-items: flex-end;
             padding-top: var(--dl-space-space-twounits);
             padding-left: var(--dl-space-space-threeunits);
             padding-right: var(--dl-space-space-threeunits);
@@ -313,7 +313,7 @@ const Home = (props) => {
             justify-content: space-between;
           }
           .home-logo {
-            height: 4rem;
+            height: 8rem;
           }
           .home-desktop-menu {
             display: flex;
@@ -378,12 +378,12 @@ const Home = (props) => {
           .home-container01 {
             width: 100%;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
           .home-image {
-            height: 2rem;
+            height: 8rem;
           }
           .home-menu-close {
             display: flex;
@@ -401,18 +401,33 @@ const Home = (props) => {
             flex-direction: column;
           }
           .home-text05 {
+            font-size: 4em;
+            font-style: normal;
+            font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-text06 {
+            font-size: 4em;
+            font-style: normal;
+            font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-text07 {
+            font-size: 4em;
+            font-style: normal;
+            font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-text08 {
+            font-size: 4em;
+            font-style: normal;
+            font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-text09 {
+            font-size: 4em;
+            font-style: normal;
+            font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-container02 {
@@ -791,6 +806,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 991px) {
+            .home-navbar-interactive {
+              align-items: flex-start;
+            }
             .home-desktop-menu {
               display: none;
             }
@@ -812,7 +830,7 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-threeunits);
             }
             .home-image {
-              height: 4rem;
+              height: 8rem;
             }
             .home-icon02 {
               fill: var(--dl-color-gray-500);
@@ -942,6 +960,9 @@ const Home = (props) => {
             }
             .home-mobile-menu {
               padding: 16px;
+            }
+            .home-container01 {
+              align-items: flex-start;
             }
             .home-hero {
               padding-top: var(--dl-space-space-twounits);
