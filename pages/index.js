@@ -28,11 +28,15 @@ const Home = (props) => {
         </Head>
         <Header></Header>
         <div data-aos="fade" className="home-hero">
-          <span className="home-text">
+          <span data-aos="fade-down" className="home-text">
             <span className="home-text1">Lorem ipsum dolor sit amet</span>
           </span>
-          <h1 className="home-text2">Magnificent things are very simple</h1>
-          <button className="home-button button">Order Now</button>
+          <h1 data-aos="fade-down" className="home-text2">
+            Magnificent things are very simple
+          </h1>
+          <button data-aos="fade-up" className="home-button button">
+            Order Now
+          </button>
         </div>
         <div className="home-features">
           <h1 data-aos="fade-right" className="home-text3">
