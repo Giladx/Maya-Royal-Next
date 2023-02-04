@@ -24,6 +24,10 @@ const About = (props) => {
         <Header
           rootClassName="header-root-class-name"
           LinkURL1="/about"
+          MLinkURL4="https://mas-tul.com"
+          LinkURL4="https://mas-tul.com"
+          LinkURL2="https://mayaroyale.com"
+          MLinkURL2="https://mayaroyale.com"
         ></Header>
         <div className="about-hero">
           <div className="about-container1">
