@@ -157,30 +157,30 @@ const Header = (props) => {
             flex-direction: row;
           }
           .header-text {
-            font-size: 2em;
+            font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
           }
           .header-text01 {
-            font-size: 2em;
+            font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
             margin-left: var(--dl-space-space-twounits);
           }
           .header-text02 {
-            font-size: 2em;
+            font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
             margin-left: var(--dl-space-space-twounits);
           }
           .header-text03 {
-            font-size: 2em;
+            font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
             margin-left: var(--dl-space-space-twounits);
           }
           .header-text04 {
-            font-size: 2em;
+            font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
             margin-left: var(--dl-space-space-twounits);
@@ -192,14 +192,14 @@ const Header = (props) => {
             justify-content: space-between;
           }
           .header-login {
-            font-size: 2em;
+            font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
             border-width: 0px;
             margin-right: var(--dl-space-space-twounits);
           }
           .header-register {
-            font-size: 2em;
+            font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
           }
