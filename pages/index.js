@@ -31,6 +31,7 @@ const Home = (props) => {
               <img
                 alt="logo"
                 src="/playground_assets/mayalogo-1500h.webp"
+                loading="lazy"
                 className="home-logo"
               />
             </a>
@@ -325,7 +326,7 @@ const Home = (props) => {
             display: contents;
           }
           .home-logo {
-            height: 8rem;
+            height: 5rem;
             text-decoration: none;
           }
           .home-desktop-menu {
