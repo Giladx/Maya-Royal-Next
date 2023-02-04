@@ -365,7 +365,7 @@ const Home = (props) => {
             z-index: 100;
             position: fixed;
             transform: translateY(-100%);
-            transition: 0.5s;
+            transition: 0.8s;
             flex-direction: column;
             justify-content: space-between;
             background-color: #fff;
