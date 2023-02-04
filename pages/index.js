@@ -124,7 +124,7 @@ const Home = (props) => {
         </div>
         <div className="home-features">
           <h1 className="home-text13">
-            <span>Discover Maya Royal</span>
+            <span>Discover Maya Royale</span>
             <br></br>
           </h1>
           <div className="home-separator"></div>
@@ -287,7 +287,7 @@ const Home = (props) => {
           </div>
           <div className="home-separator1"></div>
           <span className="home-text31">
-            © 2021 Maya Royal, All Rights Reserved.
+            © 2021 Maya Royale, All Rights Reserved.
           </span>
         </footer>
       </div>
@@ -801,6 +801,7 @@ const Home = (props) => {
               display: flex;
             }
             .home-icon {
+              fill: var(--dl-color-gray-500);
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
             }
@@ -814,6 +815,7 @@ const Home = (props) => {
               height: 4rem;
             }
             .home-icon02 {
+              fill: var(--dl-color-gray-500);
               width: var(--dl-size-size-small);
               height: var(--dl-size-size-small);
             }
