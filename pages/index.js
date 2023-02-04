@@ -452,7 +452,7 @@ const Home = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/10_19%20-%20foto1-1500h.jpg');
+            background-image: url('/playground_assets/pastedgraphic-3-1500h.png');
             background-position: center;
           }
           .home-text10 {
