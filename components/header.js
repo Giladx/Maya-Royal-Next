@@ -357,10 +357,12 @@ const Header = (props) => {
             flex-direction: row;
           }
           .header-login1 {
+            font-size: 2em;
             margin-right: var(--dl-space-space-twounits);
             text-decoration: none;
           }
           .header-register1 {
+            font-size: 2em;
             text-decoration: none;
           }
           .header-icon-group {
@@ -509,14 +511,14 @@ Header.defaultProps = {
   LinkButton3: '',
   LinkButton2: '',
   LinkText4: 'Club',
-  LogoSrcURL: '/playground_assets/mayalogo-1500h.webp',
+  LogoSrcURL: '/playground_assets/mayalogo-1500h.png',
   MLinkText1: 'About',
   LinkText5: 'Stuff',
   LinkButton1: 'Contact',
   LinkURL4: '',
   MButtonLink1: '',
   LinkURL5: '',
-  image_src: '/playground_assets/mayalogo-1500h.webp',
+  image_src: '/playground_assets/mayalogo-1500h.png',
   MLinkText5: 'Stuff',
   MLinkURL5: '',
   MLinkURL2: '',
