@@ -115,7 +115,7 @@ const Home = (props) => {
             </div>
           </div>
         </header>
-        <div className="home-hero">
+        <div data-aos="fade" className="home-hero">
           <span className="home-text10">
             <span className="home-text11">Lorem ipsum dolor sit amet</span>
           </span>
