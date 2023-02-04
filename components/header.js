@@ -122,12 +122,10 @@ const Header = (props) => {
       <style jsx>
         {`
           .header-header {
-            top: 0;
             flex: 0 0 auto;
             width: 100%;
             height: auto;
             display: flex;
-            position: fixed;
             align-items: flex-start;
             flex-direction: row;
           }
