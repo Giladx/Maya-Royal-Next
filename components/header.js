@@ -14,6 +14,7 @@ const Header = (props) => {
                 alt={props.Logo_alt}
                 src={props.LogoSrcURL}
                 loading="lazy"
+                data-aos="fade-left"
                 className="header-logo"
               />
             </a>
