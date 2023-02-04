@@ -97,15 +97,15 @@ const Hero = (props) => {
 }
 
 Hero.defaultProps = {
+  HeroButtonLink: '',
   Heading: 'Magnificent things are very simple',
   HeroButtonText: 'Order Now',
-  HeroButtonLink: '',
 }
 
 Hero.propTypes = {
+  HeroButtonLink: PropTypes.string,
   Heading: PropTypes.string,
   HeroButtonText: PropTypes.string,
-  HeroButtonLink: PropTypes.string,
 }
 
 export default Hero

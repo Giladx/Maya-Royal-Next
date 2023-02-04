@@ -189,7 +189,7 @@ const Header = (props) => {
             display: contents;
           }
           .header-logo {
-            height: 5rem;
+            height: 4rem;
             text-decoration: none;
           }
           .header-desktop-menu {
@@ -295,7 +295,7 @@ const Header = (props) => {
             display: contents;
           }
           .header-image {
-            height: 8rem;
+            height: 4rem;
             text-decoration: none;
           }
           .header-menu-close {
@@ -411,7 +411,7 @@ const Header = (props) => {
               align-items: center;
             }
             .header-logo {
-              height: 5rem;
+              height: 4rem;
             }
             .header-desktop-menu {
               display: none;
@@ -434,7 +434,7 @@ const Header = (props) => {
               padding-bottom: var(--dl-space-space-threeunits);
             }
             .header-image {
-              height: 5rem;
+              height: 4rem;
             }
             .header-icon02 {
               fill: var(--dl-color-gray-500);
@@ -497,73 +497,73 @@ const Header = (props) => {
 }
 
 Header.defaultProps = {
+  MLinkURL3: '',
+  LinkURL3: '',
+  MLinkURL4: '',
   MLinkText3: 'Restaurant',
   LinkText3: 'Restaurant',
   LinkText1: 'About',
+  MButtonLink2: '',
   MButtonText1: 'Order',
   MButtonText2: 'Contact',
+  LinkButton3: '',
+  LinkButton2: '',
   LinkText4: 'Club',
   LogoSrcURL: '/playground_assets/mayalogo-1500h.webp',
   MLinkText1: 'About',
   LinkText5: 'Stuff',
   LinkButton1: 'Contact',
+  LinkURL4: '',
+  MButtonLink1: '',
+  LinkURL5: '',
   image_src: '/playground_assets/mayalogo-1500h.webp',
   MLinkText5: 'Stuff',
+  MLinkURL5: '',
+  MLinkURL2: '',
+  LinkURL1: '',
   Register: 'Order',
   Logo_alt: 'logo',
   MLinkText4: 'Club',
   LinkText2: 'Resort',
   MLinkText2: 'Resort',
   MLogoAlt: 'image',
-  LinkURL1: '',
   LinkURL2: '',
-  LinkURL3: '',
-  LinkURL4: '',
-  LinkURL5: '',
-  LinkButton3: '',
-  LinkButton2: '',
   MLinkURL1: '',
-  MLinkURL2: '',
-  MLinkURL3: '',
-  MLinkURL4: '',
-  MLinkURL5: '',
-  MButtonLink1: '',
-  MButtonLink2: '',
 }
 
 Header.propTypes = {
+  MLinkURL3: PropTypes.string,
+  LinkURL3: PropTypes.string,
+  MLinkURL4: PropTypes.string,
   MLinkText3: PropTypes.string,
   LinkText3: PropTypes.string,
   LinkText1: PropTypes.string,
+  MButtonLink2: PropTypes.string,
   MButtonText1: PropTypes.string,
   MButtonText2: PropTypes.string,
+  LinkButton3: PropTypes.string,
+  LinkButton2: PropTypes.string,
   LinkText4: PropTypes.string,
   LogoSrcURL: PropTypes.string,
   MLinkText1: PropTypes.string,
   LinkText5: PropTypes.string,
   LinkButton1: PropTypes.string,
+  LinkURL4: PropTypes.string,
+  MButtonLink1: PropTypes.string,
+  LinkURL5: PropTypes.string,
   image_src: PropTypes.string,
   MLinkText5: PropTypes.string,
+  MLinkURL5: PropTypes.string,
+  MLinkURL2: PropTypes.string,
+  LinkURL1: PropTypes.string,
   Register: PropTypes.string,
   Logo_alt: PropTypes.string,
   MLinkText4: PropTypes.string,
   LinkText2: PropTypes.string,
   MLinkText2: PropTypes.string,
   MLogoAlt: PropTypes.string,
-  LinkURL1: PropTypes.string,
   LinkURL2: PropTypes.string,
-  LinkURL3: PropTypes.string,
-  LinkURL4: PropTypes.string,
-  LinkURL5: PropTypes.string,
-  LinkButton3: PropTypes.string,
-  LinkButton2: PropTypes.string,
   MLinkURL1: PropTypes.string,
-  MLinkURL2: PropTypes.string,
-  MLinkURL3: PropTypes.string,
-  MLinkURL4: PropTypes.string,
-  MLinkURL5: PropTypes.string,
-  MButtonLink1: PropTypes.string,
-  MButtonLink2: PropTypes.string,
 }
 
 export default Header
