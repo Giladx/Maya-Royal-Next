@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Head from 'next/head'
 
 import FeatureCard4 from '../components/feature-card4'
@@ -25,11 +26,15 @@ const Home = (props) => {
           />
         </Head>
         <header data-thq="thq-navbar" className="home-navbar-interactive">
-          <img
-            alt="logo"
-            src="/playground_assets/mayalogo-1500h.webp"
-            className="home-logo"
-          />
+          <Link href="/">
+            <a className="home-link">
+              <img
+                alt="logo"
+                src="/playground_assets/mayalogo-1500h.webp"
+                className="home-logo"
+              />
+            </a>
+          </Link>
           <div
             data-thq="thq-navbar-nav"
             data-role="Nav"
@@ -75,11 +80,15 @@ const Home = (props) => {
               className="home-nav1"
             >
               <div className="home-container01">
-                <img
-                  alt="image"
-                  src="/playground_assets/mayalogo-1500h.webp"
-                  className="home-image"
-                />
+                <Link href="/">
+                  <a className="home-link1">
+                    <img
+                      alt="image"
+                      src="/playground_assets/mayalogo-1500h.webp"
+                      className="home-image"
+                    />
+                  </a>
+                </Link>
                 <div data-thq="thq-close-menu" className="home-menu-close">
                   <svg viewBox="0 0 1024 1024" className="home-icon02">
                     <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
@@ -312,8 +321,12 @@ const Home = (props) => {
             padding-bottom: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
+          .home-link {
+            display: contents;
+          }
           .home-logo {
             height: 8rem;
+            text-decoration: none;
           }
           .home-desktop-menu {
             display: flex;
@@ -382,8 +395,12 @@ const Home = (props) => {
             margin-bottom: var(--dl-space-space-threeunits);
             justify-content: space-between;
           }
+          .home-link1 {
+            display: contents;
+          }
           .home-image {
             height: 8rem;
+            text-decoration: none;
           }
           .home-menu-close {
             display: flex;
@@ -809,6 +826,9 @@ const Home = (props) => {
             .home-navbar-interactive {
               align-items: flex-start;
             }
+            .home-logo {
+              height: 5rem;
+            }
             .home-desktop-menu {
               display: none;
             }
@@ -830,7 +850,7 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-threeunits);
             }
             .home-image {
-              height: 8rem;
+              height: 5rem;
             }
             .home-icon02 {
               fill: var(--dl-color-gray-500);
