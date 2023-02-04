@@ -35,7 +35,7 @@ const Home = (props) => {
           <button className="home-button button">Order Now</button>
         </div>
         <div className="home-features">
-          <h1 className="home-text3">
+          <h1 data-aos="fade-right" className="home-text3">
             <span>Discover Maya Royale</span>
             <br></br>
           </h1>
