@@ -33,6 +33,7 @@ const Home = (props) => {
           LinkURL2="https://mayaroyale.com"
           MLinkURL2="https://mayaroyale.com"
           MLinkURL4="https://mas-tul.com"
+          MLinkURL1="/about"
         ></Header>
         <Hero></Hero>
         <div className="home-features">
