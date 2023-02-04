@@ -129,7 +129,7 @@ const Header = (props) => {
             display: flex;
             position: fixed;
             align-items: flex-start;
-            flex-direction: column;
+            flex-direction: row;
           }
           .header-navbar-interactive {
             width: 100%;
@@ -420,45 +420,45 @@ const Header = (props) => {
 }
 
 Header.defaultProps = {
-  Logo_src: '/playground_assets/mayalogo-1500h.webp',
-  Logo_alt: 'logo',
-  Login: 'Contact',
-  Register: 'Order',
-  text: 'About',
-  text1: 'Resort',
-  text2: 'Restaurant',
-  text3: 'Club',
-  text4: 'Stuff',
-  image_src: '/playground_assets/mayalogo-1500h.webp',
-  image_alt: 'image',
-  text5: 'About',
-  text6: 'Resort',
   text7: 'Restaurant',
-  text8: 'Club',
-  text9: 'Stuff',
+  text2: 'Restaurant',
+  text: 'About',
   Login1: 'Login',
   Register1: 'Register',
+  text3: 'Club',
+  Logo_src: '/playground_assets/mayalogo-1500h.webp',
+  text5: 'About',
+  text4: 'Stuff',
+  Login: 'Contact',
+  image_src: '/playground_assets/mayalogo-1500h.webp',
+  text9: 'Stuff',
+  Register: 'Order',
+  Logo_alt: 'logo',
+  text8: 'Club',
+  text1: 'Resort',
+  text6: 'Resort',
+  image_alt: 'image',
 }
 
 Header.propTypes = {
-  Logo_src: PropTypes.string,
-  Logo_alt: PropTypes.string,
-  Login: PropTypes.string,
-  Register: PropTypes.string,
-  text: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  text3: PropTypes.string,
-  text4: PropTypes.string,
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
-  text5: PropTypes.string,
-  text6: PropTypes.string,
   text7: PropTypes.string,
-  text8: PropTypes.string,
-  text9: PropTypes.string,
+  text2: PropTypes.string,
+  text: PropTypes.string,
   Login1: PropTypes.string,
   Register1: PropTypes.string,
+  text3: PropTypes.string,
+  Logo_src: PropTypes.string,
+  text5: PropTypes.string,
+  text4: PropTypes.string,
+  Login: PropTypes.string,
+  image_src: PropTypes.string,
+  text9: PropTypes.string,
+  Register: PropTypes.string,
+  Logo_alt: PropTypes.string,
+  text8: PropTypes.string,
+  text1: PropTypes.string,
+  text6: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default Header

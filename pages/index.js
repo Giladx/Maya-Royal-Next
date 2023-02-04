@@ -160,7 +160,9 @@ const Home = (props) => {
             background-size: cover;
             justify-content: center;
             background-image: url('/playground_assets/pastedgraphic-3-1500h.png');
+            background-repeat: no-repeat;
             background-position: center;
+            background-attachment: fixed;
           }
           .home-text {
             color: var(--dl-color-gray-white);
@@ -316,7 +318,9 @@ const Home = (props) => {
             background-size: cover;
             justify-content: center;
             background-image: url('/playground_assets/2_16%20-%20foto-1500w.jpg');
+            background-repeat: no-repeat;
             background-position: center;
+            background-attachment: fixed;
           }
           .home-container10 {
             display: flex;
