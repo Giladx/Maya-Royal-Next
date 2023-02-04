@@ -122,11 +122,12 @@ const Header = (props) => {
       <style jsx>
         {`
           .header-header {
+            top: 0;
             flex: 0 0 auto;
             width: 100%;
             height: auto;
             display: flex;
-            position: relative;
+            position: fixed;
             align-items: flex-start;
             flex-direction: column;
           }
@@ -320,7 +321,33 @@ const Header = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
+          @media (max-width: 1200px) {
+            .header-text {
+              font-size: 1em;
+            }
+            .header-text01 {
+              font-size: 1em;
+            }
+            .header-text02 {
+              font-size: 1em;
+            }
+            .header-text03 {
+              font-size: 1em;
+            }
+            .header-text04 {
+              font-size: 1em;
+            }
+            .header-login {
+              font-size: 1em;
+            }
+            .header-register {
+              font-size: 1em;
+            }
+          }
           @media (max-width: 991px) {
+            .header-header {
+              flex-direction: row;
+            }
             .header-navbar-interactive {
               align-items: center;
             }
@@ -376,6 +403,7 @@ const Header = (props) => {
           }
           @media (max-width: 479px) {
             .header-navbar-interactive {
+              height: auto;
               padding: var(--dl-space-space-unit);
             }
             .header-mobile-menu {
