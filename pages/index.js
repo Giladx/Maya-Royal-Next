@@ -549,6 +549,7 @@ const Home = (props) => {
           .home-image1 {
             width: 450px;
             height: 450px;
+            box-shadow: 5px 5px 20px 0px #8a8a8a;
             object-fit: cover;
             flex-shrink: 0;
             margin-left: var(--dl-space-space-fourunits);
