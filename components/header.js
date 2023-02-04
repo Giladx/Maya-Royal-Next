@@ -31,8 +31,6 @@ const Header = (props) => {
               <a
                 href={props.LinkURL1}
                 data-aos="fade"
-                target="_blank"
-                rel="noreferrer noopener"
                 className="header-link01"
               >
                 {props.LinkText1}
@@ -40,8 +38,6 @@ const Header = (props) => {
               <a
                 href={props.LinkURL2}
                 data-aos="fade"
-                target="_blank"
-                rel="noreferrer noopener"
                 className="header-link02"
               >
                 {props.LinkText2}
@@ -49,8 +45,6 @@ const Header = (props) => {
               <a
                 href={props.LinkURL3}
                 data-aos="fade"
-                target="_blank"
-                rel="noreferrer noopener"
                 className="header-link03"
               >
                 {props.LinkText3}
@@ -58,8 +52,6 @@ const Header = (props) => {
               <a
                 href={props.LinkURL4}
                 data-aos="fade"
-                target="_blank"
-                rel="noreferrer noopener"
                 className="header-link04"
               >
                 {props.LinkText4}
@@ -67,8 +59,6 @@ const Header = (props) => {
               <a
                 href={props.LinkURL5}
                 data-aos="fade"
-                target="_blank"
-                rel="noreferrer noopener"
                 className="header-link05"
               >
                 {props.LinkText5}
@@ -79,8 +69,6 @@ const Header = (props) => {
             <a
               href={props.LinkButton3}
               data-aos="fade"
-              target="_blank"
-              rel="noreferrer noopener"
               className="header-login button"
             >
               {props.LinkButton1}
@@ -88,8 +76,6 @@ const Header = (props) => {
             <a
               href={props.LinkButton2}
               data-aos="fade"
-              target="_blank"
-              rel="noreferrer noopener"
               className="header-register button"
             >
               {props.Register}
@@ -127,60 +113,28 @@ const Header = (props) => {
                 data-role="Nav"
                 className="header-nav2"
               >
-                <a
-                  href={props.MLinkURL1}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="header-link07"
-                >
+                <a href={props.MLinkURL1} className="header-link07">
                   {props.MLinkText1}
                 </a>
-                <a
-                  href={props.MLinkURL2}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="header-link08"
-                >
+                <a href={props.MLinkURL2} className="header-link08">
                   {props.MLinkText2}
                 </a>
-                <a
-                  href={props.MLinkURL3}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="header-link09"
-                >
+                <a href={props.MLinkURL3} className="header-link09">
                   {props.MLinkText3}
                 </a>
-                <a
-                  href={props.MLinkURL4}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="header-link10"
-                >
+                <a href={props.MLinkURL4} className="header-link10">
                   {props.MLinkText4}
                 </a>
-                <a
-                  href={props.MLinkURL5}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="header-link11"
-                >
+                <a href={props.MLinkURL5} className="header-link11">
                   {props.MLinkText5}
                 </a>
               </nav>
               <div className="header-container1">
-                <a
-                  href={props.MButtonLink1}
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  className="header-login1 button"
-                >
+                <a href={props.MButtonLink1} className="header-login1 button">
                   {props.MButtonText1}
                 </a>
                 <a
                   href={props.MButtonLink2}
-                  target="_blank"
-                  rel="noreferrer noopener"
                   className="header-register1 button"
                 >
                   {props.MButtonText2}

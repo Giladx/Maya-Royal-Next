@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import Header from '../components/header'
+import Hero from '../components/hero'
 import FeatureCard4 from '../components/feature-card4'
 import GalleryCard2 from '../components/gallery-card2'
 import BlogPostCard4 from '../components/blog-post-card4'
@@ -27,19 +28,9 @@ const Home = (props) => {
           />
         </Head>
         <Header LinkURL4="https://mas-tul.com"></Header>
-        <div data-aos="fade" className="home-hero">
-          <span data-aos="fade-down" className="home-text">
-            <span className="home-text1">Lorem ipsum dolor sit amet</span>
-          </span>
-          <h1 data-aos="fade-down" className="home-text2">
-            Magnificent things are very simple
-          </h1>
-          <button data-aos="fade-up" className="home-button button">
-            Order Now
-          </button>
-        </div>
+        <Hero></Hero>
         <div className="home-features">
-          <h1 data-aos="fade-right" className="home-text3">
+          <h1 data-aos="fade-right" className="home-text">
             <span>Discover Maya Royale</span>
             <br></br>
           </h1>
@@ -155,50 +146,6 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-hero {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-threeunits);
-            min-height: 80vh;
-            align-items: center;
-            flex-direction: column;
-            background-size: cover;
-            justify-content: center;
-            background-image: url('/playground_assets/pastedgraphic-3-1500h.png');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-attachment: fixed;
-          }
-          .home-text {
-            color: var(--dl-color-gray-white);
-            font-size: 0.75rem;
-            letter-spacing: 2px;
-          }
-          .home-text1 {
-            text-transform: uppercase;
-          }
-          .home-text2 {
-            color: var(--dl-color-gray-white);
-            font-size: 3rem;
-            max-width: 450px;
-            margin-top: var(--dl-space-space-twounits);
-            text-align: center;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .home-button {
-            color: var(--dl-color-gray-white);
-            font-size: 35px;
-            transition: 0.3s;
-            padding-top: var(--dl-space-space-unit);
-            border-width: 0px;
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            padding-bottom: var(--dl-space-space-unit);
-            background-color: #a17208;
-          }
-          .home-button:hover {
-            transform: scale(1.02);
-          }
           .home-features {
             width: 100%;
             display: flex;
@@ -206,7 +153,7 @@ const Home = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             flex-direction: column;
           }
-          .home-text3 {
+          .home-text {
             font-size: 3rem;
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -356,12 +303,6 @@ const Home = (props) => {
             align-items: center;
             justify-content: space-between;
           }
-          @media (max-width: 1200px) {
-            .home-button {
-              color: var(--dl-color-gray-white);
-              background-color: var(--dl-color-gray-black);
-            }
-          }
           @media (max-width: 991px) {
             .home-features {
               align-items: center;
@@ -387,15 +328,11 @@ const Home = (props) => {
             }
           }
           @media (max-width: 767px) {
-            .home-hero {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
             .home-features {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text3 {
+            .home-text {
               text-align: center;
             }
             .home-container01 {
@@ -424,12 +361,6 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
-            .home-hero {
-              padding-top: var(--dl-space-space-twounits);
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-twounits);
-            }
             .home-features {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
