@@ -28,7 +28,6 @@ const About = (props) => {
           LinkURL4="https://mas-tul.com"
           LinkURL2="https://mayaroyale.com"
           MLinkURL2="https://mayaroyale.com"
-          MLinkURL1="/about"
         ></Header>
         <div className="about-hero">
           <div className="about-container1">

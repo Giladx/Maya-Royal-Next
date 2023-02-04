@@ -238,6 +238,7 @@ const Footer = (props) => {
               justify-content: space-between;
             }
             .footer-logo {
+              width: 100%;
               align-items: center;
             }
             .footer-image {
@@ -251,14 +252,39 @@ const Footer = (props) => {
             .footer-links-container {
               width: 100%;
               align-items: flex-start;
-              flex-direction: row;
+              flex-direction: column;
               justify-content: center;
             }
             .footer-container1 {
+              width: 100%;
               margin-right: var(--dl-space-space-fourunits);
+              flex-direction: column;
             }
             .footer-product-container {
+              width: 100%;
+              align-items: center;
               margin-right: var(--dl-space-space-fourunits);
+              margin-bottom: var(--dl-space-space-twounits);
+              justify-content: center;
+            }
+            .footer-company-container {
+              width: 100%;
+              align-items: center;
+              margin-bottom: var(--dl-space-space-twounits);
+              justify-content: center;
+            }
+            .footer-container2 {
+              width: 100%;
+            }
+            .footer-contact {
+              width: 100%;
+              align-items: center;
+              justify-content: center;
+            }
+            .footer-socials {
+              width: 100%;
+              align-items: center;
+              justify-content: center;
             }
           }
           @media (max-width: 479px) {
@@ -283,14 +309,27 @@ const Footer = (props) => {
             .footer-container1 {
               margin-right: 0px;
             }
+            .footer-product-container {
+              align-items: center;
+              justify-content: center;
+            }
+            .footer-company-container {
+              align-items: center;
+              justify-content: center;
+            }
             .footer-container2 {
               margin-top: var(--dl-space-space-oneandhalfunits);
               align-items: flex-start;
               margin-bottom: 0px;
             }
             .footer-contact {
-              align-items: flex-start;
+              align-items: center;
               margin-bottom: var(--dl-space-space-unit);
+              justify-content: center;
+            }
+            .footer-socials {
+              align-items: center;
+              justify-content: center;
             }
             .footer-text15 {
               text-align: center;
