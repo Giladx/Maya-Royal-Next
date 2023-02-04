@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 const Header = (props) => {
   return (
     <>
-      <div className="header-header">
+      <div className={`header-header ${props.rootClassName} `}>
         <header data-thq="thq-navbar" className="header-navbar-interactive">
           <Link href="/">
             <a className="header-link">
@@ -205,7 +205,6 @@ const Header = (props) => {
             font-size: 1.3em;
             font-style: normal;
             font-weight: 700;
-            text-decoration: none;
           }
           .header-link02 {
             font-size: 1.3em;
@@ -382,6 +381,7 @@ const Header = (props) => {
             width: var(--dl-size-size-xsmall);
             height: var(--dl-size-size-xsmall);
           }
+
           @media (max-width: 1200px) {
             .header-link01 {
               font-size: 1em;
@@ -531,6 +531,7 @@ Header.defaultProps = {
   MLogoAlt: 'image',
   LinkURL2: '',
   MLinkURL1: '',
+  rootClassName: '',
 }
 
 Header.propTypes = {
@@ -566,6 +567,7 @@ Header.propTypes = {
   MLogoAlt: PropTypes.string,
   LinkURL2: PropTypes.string,
   MLinkURL1: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Header

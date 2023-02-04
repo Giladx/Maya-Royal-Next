@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Footer = (props) => {
   return (
     <>
-      <footer className="footer-footer">
+      <footer className={`footer-footer ${props.rootClassName} `}>
         <div className="footer-container">
           <div className="footer-logo">
             <img
@@ -215,6 +215,7 @@ const Footer = (props) => {
           .footer-text15 {
             align-self: center;
           }
+
           @media (max-width: 991px) {
             .footer-footer {
               flex-direction: column;
@@ -320,6 +321,7 @@ Footer.defaultProps = {
   image_alt: 'logo',
   image_src: '/playground_assets/mayalogo-1500h.png',
   text3: 'Features',
+  rootClassName: '',
 }
 
 Footer.propTypes = {
@@ -341,6 +343,7 @@ Footer.propTypes = {
   image_alt: PropTypes.string,
   image_src: PropTypes.string,
   text3: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Footer
