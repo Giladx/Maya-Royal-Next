@@ -6,6 +6,7 @@ const TestimonialCard4 = (props) => {
   return (
     <>
       <div
+        data-aos="fade-left"
         className={`testimonial-card4-testimonial-card ${props.rootClassName} `}
       >
         <svg viewBox="0 0 1024 1024" className="testimonial-card4-icon">

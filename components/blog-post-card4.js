@@ -7,6 +7,7 @@ const BlogPostCard4 = (props) => {
   return (
     <>
       <div
+        data-aos="fade-down"
         className={`blog-post-card4-blog-post-card gradient-box ${props.rootClassName} `}
       >
         <img

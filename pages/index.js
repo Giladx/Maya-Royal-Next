@@ -39,7 +39,7 @@ const Home = (props) => {
             <span>Discover Maya Royale</span>
             <br></br>
           </h1>
-          <div className="home-separator"></div>
+          <div data-aos="fade-right" className="home-separator"></div>
           <div className="home-container01">
             <div className="home-container02">
               <FeatureCard4
@@ -61,7 +61,8 @@ const Home = (props) => {
             </div>
             <img
               alt="image"
-              src="https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxtaW5pbWFsaXNtfGVufDB8fHx8MTYyNjQ0NTY1Nw&amp;ixlib=rb-1.2.1&amp;h=1000"
+              src="https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxtaW5pbWFsaXNtfGVufDB8fHx8MTYyNjQ0NTY1Nw&amp;ixlib=rb-1.2.1&amp;w=500"
+              data-aos="fade-left"
               className="home-image"
             />
           </div>
