@@ -50,8 +50,8 @@ const Hero = (props) => {
           .hero-text2 {
             color: var(--dl-color-gray-white);
             width: 676px;
-            font-size: 3rem;
-            max-width: 450px;
+            font-size: 5rem;
+            max-width: 550px;
             margin-top: var(--dl-space-space-twounits);
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
