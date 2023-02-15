@@ -6,12 +6,12 @@ const Hero = (props) => {
   return (
     <>
       <div data-aos="fade" className="hero-hero">
-        <span data-aos="fade-down" className="hero-text">
-          <span className="hero-text1">Lorem ipsum dolor sit amet</span>
-        </span>
-        <h1 data-aos="fade-down" className="hero-text2">
+        <h1 data-aos="fade-down" className="hero-text">
           {props.Heading}
         </h1>
+        <span data-aos="fade-down" className="hero-text1">
+          So you can be yourself
+        </span>
         <a
           href={props.HeroButtonLink}
           data-aos="fade-up"
@@ -41,20 +41,19 @@ const Hero = (props) => {
           }
           .hero-text {
             color: var(--dl-color-gray-white);
-            font-size: 0.75rem;
-            letter-spacing: 2px;
-          }
-          .hero-text1 {
-            text-transform: uppercase;
-          }
-          .hero-text2 {
-            color: var(--dl-color-gray-white);
             width: 676px;
             font-size: 5rem;
             max-width: 550px;
             margin-top: var(--dl-space-space-twounits);
             text-align: center;
             margin-bottom: var(--dl-space-space-twounits);
+          }
+          .hero-text1 {
+            color: var(--dl-color-gray-white);
+            font-size: 1.5rem;
+            margin-bottom: var(--dl-space-space-twounits);
+            letter-spacing: 2px;
+            text-transform: uppercase;
           }
           .hero-link {
             color: var(--dl-color-gray-white);
@@ -90,8 +89,14 @@ const Hero = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .hero-text2 {
+            .hero-text {
               max-width: 100%;
+            }
+            .hero-text1 {
+              color: var(--dl-color-gray-white);
+              font-size: 1.5rem;
+              margin-bottom: var(--dl-space-space-threeunits);
+              letter-spacing: 2px;
             }
           }
         `}
@@ -103,7 +108,7 @@ const Hero = (props) => {
 Hero.defaultProps = {
   HeroButtonLink: '',
   Heading: 'Mexico Kosher Resort',
-  HeroButtonText: 'Order Now',
+  HeroButtonText: 'Schedule  Your Vacation',
 }
 
 Hero.propTypes = {
