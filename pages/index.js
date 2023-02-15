@@ -45,8 +45,8 @@ const Home = (props) => {
             <div className="home-container02">
               <FeatureCard4
                 title="The Resort"
-                rootClassName="rootClassName1"
                 description="Mexico Kosher Resort On site Synagogue Endless Private Beaches Spa, Gym, Salons Nightly Entertainment Kabalat Shabbat Candle Lighting"
+                rootClassName="rootClassName1"
               ></FeatureCard4>
               <FeatureCard4
                 title="The Club"
@@ -54,13 +54,13 @@ const Home = (props) => {
               ></FeatureCard4>
               <FeatureCard4
                 title="The Restaurant"
-                rootClassName="rootClassName3"
                 description="Glatt Kosher Restaurants Certified by Kosher MexKosher Kosher Kosher Meats Dairy Fish Breakfast Lunch Dinner 24/7 Room Service"
+                rootClassName="rootClassName3"
               ></FeatureCard4>
               <FeatureCard4
                 title="Top Staff"
-                rootClassName="rootClassName2"
                 description="Unparalleled Service Enjoy 5 star experiences Genuine Knowledgeable Friendly Experienced Anticipatory"
+                rootClassName="rootClassName2"
               ></FeatureCard4>
             </div>
             <img
@@ -102,21 +102,22 @@ const Home = (props) => {
           <BlogPostCard4
             label="Travel"
             rootClassName="rootClassName1"
+            image_src="/playground_assets/10-1500w.webp"
           ></BlogPostCard4>
           <div className="home-container09">
             <BlogPostCard4
               label="Club Party"
-              image_src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHRyYXZlbHxlbnwwfHx8fDE2MjY0MzI2Mjc&amp;ixlib=rb-1.2.1&amp;h=1000"
+              image_src="/playground_assets/10-1500w.webp"
               rootClassName="rootClassName2"
             ></BlogPostCard4>
             <BlogPostCard4
-              image_src="https://images.unsplash.com/photo-1446822775955-c34f483b410b?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHx0cmF2ZWwlMjBmb29kfGVufDB8fHx8MTYyNjQ1Mjg0Ng&amp;ixlib=rb-1.2.1&amp;w=1000"
+              image_src="/playground_assets/10-1500w.webp"
               rootClassName="rootClassName3"
             ></BlogPostCard4>
           </div>
           <BlogPostCard4
             date="JULY 10"
-            image_src="https://images.unsplash.com/photo-1510525009512-ad7fc13eefab?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGJvYXR8ZW58MHx8fHwxNjI2NDUyODIx&amp;ixlib=rb-1.2.1&amp;w=1000"
+            image_src="/playground_assets/10-1500w.webp"
             rootClassName="rootClassName4"
           ></BlogPostCard4>
         </div>
