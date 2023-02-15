@@ -49,6 +49,7 @@ const Hero = (props) => {
           }
           .hero-text2 {
             color: var(--dl-color-gray-white);
+            width: 676px;
             font-size: 3rem;
             max-width: 450px;
             margin-top: var(--dl-space-space-twounits);
@@ -98,7 +99,7 @@ const Hero = (props) => {
 
 Hero.defaultProps = {
   HeroButtonLink: '',
-  Heading: 'Magnificent things are very simple',
+  Heading: 'Mexico Kosher Resort',
   HeroButtonText: 'Order Now',
 }
 

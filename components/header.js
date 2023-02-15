@@ -504,6 +504,7 @@ Header.defaultProps = {
   LinkURL3: '',
   MLinkURL4: '',
   MLinkText3: 'Restaurant',
+  rootClassName: '',
   LinkText3: 'Restaurant',
   LinkText1: 'About',
   MButtonLink2: '',
@@ -532,7 +533,6 @@ Header.defaultProps = {
   MLogoAlt: 'image',
   LinkURL2: '',
   MLinkURL1: '',
-  rootClassName: '',
 }
 
 Header.propTypes = {
@@ -540,6 +540,7 @@ Header.propTypes = {
   LinkURL3: PropTypes.string,
   MLinkURL4: PropTypes.string,
   MLinkText3: PropTypes.string,
+  rootClassName: PropTypes.string,
   LinkText3: PropTypes.string,
   LinkText1: PropTypes.string,
   MButtonLink2: PropTypes.string,
@@ -568,7 +569,6 @@ Header.propTypes = {
   MLogoAlt: PropTypes.string,
   LinkURL2: PropTypes.string,
   MLinkURL1: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default Header

@@ -22,52 +22,36 @@ const About = (props) => {
           />
         </Head>
         <Header
-          rootClassName="header-root-class-name"
           LinkURL1="/about"
-          MLinkURL4="https://mas-tul.com"
-          LinkURL4="https://mas-tul.com"
           LinkURL2="https://mayaroyale.com"
+          LinkURL4="https://mas-tul.com"
           MLinkURL2="https://mayaroyale.com"
+          MLinkURL4="https://mas-tul.com"
+          rootClassName="header-root-class-name"
         ></Header>
         <div className="about-hero">
           <div className="about-container1">
-            <h1 className="about-text">Let&apos;s keep things organised</h1>
+            <h1 className="about-text">Where are we?</h1>
             <span className="about-text1">
               <span>
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  non volutpat turpis.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                Sabancuy, Campeche, Yucatan Peninsula Mexico900 Years of
+                untouched beaches90 degrees water year roundSeaweed
+                freeHurricane freeEnjoy sunset while dining Safest state in
+                MexicoPueblos Mágicos Status ( Magic City )
               </span>
               <span>
-                <span>
-                  Mauris luctus rutrum mi ut rhoncus. Integer in dignissim
-                  tortor.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
               </span>
             </span>
             <button className="about-button button">Get Started</button>
@@ -103,10 +87,13 @@ const About = (props) => {
           }
           .about-container1 {
             display: flex;
+            padding: var(--dl-space-space-twounits);
             max-width: var(--dl-size-size-maxwidth);
             align-items: flex-start;
+            border-radius: 10px;
             flex-direction: column;
             justify-content: center;
+            background-color: rgba(0, 0, 0, 0.33);
           }
           .about-text {
             color: var(--dl-color-gray-white);
@@ -115,7 +102,7 @@ const About = (props) => {
           }
           .about-text1 {
             color: var(--dl-color-gray-white);
-            font-size: 1.15rem;
+            font-size: 2rem;
             max-width: 60%;
             margin-top: var(--dl-space-space-threeunits);
             margin-bottom: var(--dl-space-space-threeunits);

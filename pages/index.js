@@ -28,9 +28,9 @@ const Home = (props) => {
           />
         </Head>
         <Header
-          LinkURL4="https://mas-tul.com"
           LinkURL1="/about"
           LinkURL2="https://mayaroyale.com"
+          LinkURL4="https://mas-tul.com"
           MLinkURL2="https://mayaroyale.com"
           MLinkURL4="https://mas-tul.com"
         ></Header>
@@ -46,6 +46,7 @@ const Home = (props) => {
               <FeatureCard4
                 title="The Resort"
                 rootClassName="rootClassName1"
+                description="Mexico Kosher Resort On site Synagogue Endless Private Beaches Spa, Gym, Salons Nightly Entertainment Kabalat Shabbat Candle Lighting"
               ></FeatureCard4>
               <FeatureCard4
                 title="The Club"
@@ -54,10 +55,12 @@ const Home = (props) => {
               <FeatureCard4
                 title="The Restaurant"
                 rootClassName="rootClassName3"
+                description="Glatt Kosher Restaurants Certified by Kosher MexKosher Kosher Kosher Meats Dairy Fish Breakfast Lunch Dinner 24/7 Room Service"
               ></FeatureCard4>
               <FeatureCard4
                 title="Top Staff"
                 rootClassName="rootClassName2"
+                description="Unparalleled Service Enjoy 5 star experiences Genuine Knowledgeable Friendly Experienced Anticipatory"
               ></FeatureCard4>
             </div>
             <img

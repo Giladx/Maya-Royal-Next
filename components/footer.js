@@ -238,7 +238,6 @@ const Footer = (props) => {
               justify-content: space-between;
             }
             .footer-logo {
-              width: 100%;
               align-items: center;
             }
             .footer-image {
@@ -351,6 +350,7 @@ Footer.defaultProps = {
   text8: 'About',
   text15: 'Follow Us',
   text10: 'Contact',
+  rootClassName: '',
   text12: 'Contact Us',
   text11: 'Blog',
   text6: 'Releases',
@@ -360,7 +360,6 @@ Footer.defaultProps = {
   image_alt: 'logo',
   image_src: '/playground_assets/mayalogo-1500h.png',
   text3: 'Features',
-  rootClassName: '',
 }
 
 Footer.propTypes = {
@@ -373,6 +372,7 @@ Footer.propTypes = {
   text8: PropTypes.string,
   text15: PropTypes.string,
   text10: PropTypes.string,
+  rootClassName: PropTypes.string,
   text12: PropTypes.string,
   text11: PropTypes.string,
   text6: PropTypes.string,
@@ -382,7 +382,6 @@ Footer.propTypes = {
   image_alt: PropTypes.string,
   image_src: PropTypes.string,
   text3: PropTypes.string,
-  rootClassName: PropTypes.string,
 }
 
 export default Footer

@@ -37,7 +37,7 @@ const FeatureCard4 = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .feature-card4-text1 {
-            color: var(--dl-color-gray-700);
+            color: var(--dl-color-gray-500);
           }
           .feature-card4-root-class-name {
             width: 100%;
