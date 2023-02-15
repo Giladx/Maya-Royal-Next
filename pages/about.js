@@ -54,7 +54,9 @@ const About = (props) => {
                 />
               </span>
             </span>
-            <button className="about-button button">Get Started</button>
+            <button className="about-button button">
+              Schedule Your Vacation
+            </button>
           </div>
         </div>
         <Footer rootClassName="footer-root-class-name"></Footer>
@@ -105,6 +107,7 @@ const About = (props) => {
             font-size: 2rem;
             max-width: 60%;
             margin-top: var(--dl-space-space-threeunits);
+            line-height: 1.5;
             margin-bottom: var(--dl-space-space-threeunits);
           }
           .about-button {

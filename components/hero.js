@@ -65,7 +65,7 @@ const Hero = (props) => {
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
             text-decoration: none;
-            background-color: #a17208;
+            background-color: var(--dl-color-gray-black);
           }
           .hero-link:hover {
             transform: scale(1.02);
