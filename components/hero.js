@@ -90,6 +90,9 @@ const Hero = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
+            .hero-text2 {
+              max-width: 100%;
+            }
           }
         `}
       </style>
