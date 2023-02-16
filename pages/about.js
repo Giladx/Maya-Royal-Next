@@ -16,10 +16,6 @@ const About = (props) => {
             property="og:description"
             content="Resort | Restaurant | Club"
           />
-          <meta
-            property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c55e303e-157e-4374-8ff8-9832a027bba7/2e0d3d56-a8d9-486c-8f5c-3b9c922a25d6?org_if_sml=1"
-          />
         </Head>
         <Header
           LinkURL1="/about"

@@ -22,10 +22,6 @@ const Home = (props) => {
             property="og:description"
             content="Resort | Restaurant | Club"
           />
-          <meta
-            property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c55e303e-157e-4374-8ff8-9832a027bba7/2e0d3d56-a8d9-486c-8f5c-3b9c922a25d6?org_if_sml=1"
-          />
         </Head>
         <Header
           LinkURL1="/about"
@@ -37,7 +33,16 @@ const Home = (props) => {
         <Hero></Hero>
         <div className="home-features">
           <h1 data-aos="fade-right" className="home-text">
-            <span>Discover Maya Royale</span>
+            <span>
+              Discover
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br></br>
+            <span>Maya Royale</span>
             <br></br>
           </h1>
           <div data-aos="fade-right" className="home-separator"></div>
@@ -49,8 +54,9 @@ const Home = (props) => {
                 rootClassName="rootClassName1"
               ></FeatureCard4>
               <FeatureCard4
-                title="The Club"
+                title="The Feeling"
                 rootClassName="rootClassName4"
+                description="Come to a destination unlike anything you have experienced  Miles of Untouched beaches &amp; nature that leaves you breathless MayaRoyale offers you the comfort and lifestyle that is important to you Every room is hand crafted by local  Mayans Nightly entertainment and 3 restaurants that will fulfill your desires"
               ></FeatureCard4>
               <FeatureCard4
                 title="The Restaurant"
@@ -107,17 +113,17 @@ const Home = (props) => {
           <div className="home-container09">
             <BlogPostCard4
               label="Club Party"
-              image_src="/playground_assets/10-1500w.webp"
+              image_src="/playground_assets/15-1500w.webp"
               rootClassName="rootClassName2"
             ></BlogPostCard4>
             <BlogPostCard4
-              image_src="/playground_assets/10-1500w.webp"
+              image_src="/playground_assets/23-1500w.webp"
               rootClassName="rootClassName3"
             ></BlogPostCard4>
           </div>
           <BlogPostCard4
             date="JULY 10"
-            image_src="/playground_assets/10-1500w.webp"
+            image_src="/playground_assets/42-1500w.webp"
             rootClassName="rootClassName4"
           ></BlogPostCard4>
         </div>
@@ -376,6 +382,9 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-text {
+              font-size: 3rem;
             }
             .home-container02 {
               grid-template-columns: 1fr;
