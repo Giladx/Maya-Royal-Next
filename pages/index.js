@@ -55,8 +55,8 @@ const Home = (props) => {
               ></FeatureCard4>
               <FeatureCard4
                 title="The Feeling"
-                rootClassName="rootClassName4"
                 description="Come to a destination unlike anything you have experienced  Miles of Untouched beaches &amp; nature that leaves you breathless MayaRoyale offers you the comfort and lifestyle that is important to you Every room is hand crafted by local  Mayans Nightly entertainment and 3 restaurants that will fulfill your desires"
+                rootClassName="rootClassName4"
               ></FeatureCard4>
               <FeatureCard4
                 title="The Restaurant"
@@ -81,25 +81,28 @@ const Home = (props) => {
           <div className="home-container03">
             <div className="home-container04">
               <div className="home-container05">
-                <GalleryCard2 rootClassName="rootClassName2"></GalleryCard2>
+                <GalleryCard2
+                  rootClassName="rootClassName2"
+                  image_src="/playground_assets/1-1500h.webp"
+                ></GalleryCard2>
               </div>
               <div className="home-container06">
                 <GalleryCard2
-                  image_src="https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fGZvb2R8ZW58MHx8fHwxNjI2NDQ5NjUy&amp;ixlib=rb-1.2.1&amp;h=1000"
+                  image_src="/playground_assets/suite-1500w.webp"
                   rootClassName="rootClassName3"
                 ></GalleryCard2>
               </div>
             </div>
             <div className="home-container07">
               <GalleryCard2
-                image_src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxmb29kfGVufDB8fHx8MTYyNjQ0OTY1Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+                image_src="/playground_assets/10_19%20-%20foto1-1500h.jpg"
                 rootClassName="rootClassName"
               ></GalleryCard2>
             </div>
           </div>
           <div className="home-container08">
             <GalleryCard2
-              image_src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE5fHxmb29kfGVufDB8fHx8MTYyNjQ0OTY1Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
+              image_src="/playground_assets/12-1500h.webp"
               rootClassName="rootClassName4"
             ></GalleryCard2>
           </div>
@@ -107,8 +110,8 @@ const Home = (props) => {
         <div className="home-blog">
           <BlogPostCard4
             label="Travel"
-            rootClassName="rootClassName1"
             image_src="/playground_assets/10-1500w.webp"
+            rootClassName="rootClassName1"
           ></BlogPostCard4>
           <div className="home-container09">
             <BlogPostCard4
