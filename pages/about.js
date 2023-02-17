@@ -1,6 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
+import DangerousHTML from 'dangerous-html/react'
+
 import Header from '../components/header'
 import Footer from '../components/footer'
 
@@ -28,12 +30,42 @@ const About = (props) => {
         <div className="about-hero">
           <div className="about-container1">
             <h1 className="about-text">Where are we?</h1>
-            <span className="about-text1">
+            <span className="about-text01">
+              <span>Sabancuy, Campeche, Yucatan Peninsula Mexico</span>
+              <br></br>
+              <span>900 Years of untouched beaches</span>
+              <br></br>
               <span>
-                Sabancuy, Campeche, Yucatan Peninsula Mexico900 Years of
-                untouched beaches90 degrees water year roundSeaweed
-                freeHurricane freeEnjoy sunset while dining Safest state in
-                MexicoPueblos Mágicos Status ( Magic City )
+                90 degrees water year round
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>
+                Seaweed free
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>
+                Hurricane free
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>Enjoy sunset while dining </span>
+              <br></br>
+              <span>
+                Safest state in Mexico Pueblos Mágicos Status ( Magic City )
               </span>
               <span>
                 <span
@@ -53,6 +85,16 @@ const About = (props) => {
             <button className="about-button button">
               Schedule Your Vacation
             </button>
+          </div>
+        </div>
+        <div className="about-container2">
+          <div>
+            <DangerousHTML
+              html={`<div class="wave_popover_embed" data-id="4cHscVcQRhNoBTD5" data-width="560" data-height="315"></div>
+<div><img src="https://embed.wave.video/4cHscVcQRhNoBTD5/preview.jpg?width=1920&height=1080" alt=""
+        style="cursor: pointer; display: block; max-width: 100%; object-fit: cover;" data-target="target" /></div>
+<script src="https://wave.video/embed/popover-embed.js"></script>`}
+            ></DangerousHTML>
           </div>
         </div>
         <Footer rootClassName="footer-root-class-name"></Footer>
@@ -98,7 +140,7 @@ const About = (props) => {
             font-size: 3rem;
             max-width: 25rem;
           }
-          .about-text1 {
+          .about-text01 {
             color: var(--dl-color-gray-white);
             font-size: 2rem;
             max-width: 60%;
@@ -124,6 +166,14 @@ const About = (props) => {
           .about-button:hover {
             transform: scale(1.02);
           }
+          .about-container2 {
+            flex: 0 0 auto;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            padding: var(--dl-space-space-twounits);
+            align-items: flex-start;
+          }
           @media (max-width: 767px) {
             .about-hero {
               align-items: center;
@@ -133,7 +183,7 @@ const About = (props) => {
             .about-text {
               text-align: center;
             }
-            .about-text1 {
+            .about-text01 {
               max-width: 100%;
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
@@ -147,7 +197,7 @@ const About = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .about-text1 {
+            .about-text01 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }

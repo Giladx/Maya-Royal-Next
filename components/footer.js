@@ -215,7 +215,9 @@ const Footer = (props) => {
           .footer-text15 {
             align-self: center;
           }
-
+          .footer-root-class-name {
+            max-width: var(--dl-size-size-maxwidth);
+          }
           @media (max-width: 991px) {
             .footer-footer {
               flex-direction: column;
