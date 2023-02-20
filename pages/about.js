@@ -1,8 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 
-import DangerousHTML from 'dangerous-html/react'
-
 import Header from '../components/header'
 import Footer from '../components/footer'
 
@@ -86,16 +84,12 @@ const About = (props) => {
               Schedule Your Vacation
             </button>
           </div>
-        </div>
-        <div className="about-container2">
-          <div>
-            <DangerousHTML
-              html={`<div class="wave_popover_embed" data-id="4cHscVcQRhNoBTD5" data-width="560" data-height="315"></div>
-<div><img src="https://embed.wave.video/4cHscVcQRhNoBTD5/preview.jpg?width=1920&height=1080" alt=""
-        style="cursor: pointer; display: block; max-width: 100%; object-fit: cover;" data-target="target" /></div>
-<script src="https://wave.video/embed/popover-embed.js"></script>`}
-            ></DangerousHTML>
-          </div>
+          <img
+            src="/playground_assets/map-1500w.webp"
+            alt="image"
+            data-aos="fade"
+            className="about-image"
+          />
         </div>
         <Footer rootClassName="footer-root-class-name"></Footer>
       </div>
@@ -131,6 +125,7 @@ const About = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             align-items: flex-start;
             border-radius: 10px;
+            margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: column;
             justify-content: center;
             background-color: rgba(0, 0, 0, 0.33);
@@ -166,13 +161,30 @@ const About = (props) => {
           .about-button:hover {
             transform: scale(1.02);
           }
-          .about-container2 {
-            flex: 0 0 auto;
-            width: 100%;
-            height: 100px;
-            display: flex;
-            padding: var(--dl-space-space-twounits);
-            align-items: flex-start;
+          .about-image {
+            width: 50%;
+            height: auto;
+            box-shadow: 5px 5px 10px 0px #7e7979;
+            object-fit: cover;
+            border-radius: 10px;
+          }
+          @media (max-width: 1600px) {
+            .about-image {
+              width: 61%;
+            }
+          }
+          @media (max-width: 1200px) {
+            .about-image {
+              width: 83%;
+            }
+          }
+          @media (max-width: 991px) {
+            .about-container1 {
+              align-items: center;
+            }
+            .about-image {
+              width: 100%;
+            }
           }
           @media (max-width: 767px) {
             .about-hero {
@@ -189,6 +201,9 @@ const About = (props) => {
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
+            .about-image {
+              width: 100%;
+            }
           }
           @media (max-width: 479px) {
             .about-hero {
@@ -204,6 +219,9 @@ const About = (props) => {
             .about-button {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
+            }
+            .about-image {
+              width: 100%;
             }
           }
         `}

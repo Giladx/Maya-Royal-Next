@@ -82,8 +82,8 @@ const Home = (props) => {
             <div className="home-container04">
               <div className="home-container05">
                 <GalleryCard2
-                  rootClassName="rootClassName2"
                   image_src="/playground_assets/1-1500h.webp"
+                  rootClassName="rootClassName2"
                 ></GalleryCard2>
               </div>
               <div className="home-container06">
