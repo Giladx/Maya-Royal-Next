@@ -69,6 +69,7 @@ const TestimonialCard4 = (props) => {
             width: var(--dl-size-size-medium);
             filter: grayscale();
             height: var(--dl-size-size-medium);
+            display: none;
             object-fit: cover;
             border-radius: var(--dl-radius-radius-round);
           }

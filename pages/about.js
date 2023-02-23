@@ -85,8 +85,8 @@ const About = (props) => {
             </button>
           </div>
           <img
-            src="/playground_assets/map-1500w.webp"
             alt="image"
+            src="/playground_assets/map-1500w.webp"
             data-aos="fade"
             className="about-image"
           />

@@ -61,6 +61,7 @@ const TestimonialCard2 = (props) => {
           .testimonial-card2-image {
             width: var(--dl-size-size-xlarge);
             height: var(--dl-size-size-xlarge);
+            display: none;
             object-fit: cover;
             flex-shrink: 0;
             border-radius: var(--dl-radius-radius-round);
