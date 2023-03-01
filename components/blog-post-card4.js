@@ -105,6 +105,21 @@ const BlogPostCard4 = (props) => {
           .blog-post-card4-root-class-name2 {
             margin-bottom: 48px;
           }
+
+          @media (max-width: 767px) {
+            .blog-post-card4-root-class-name1 {
+              max-width: 100%;
+            }
+            .blog-post-card4-root-class-name2 {
+              max-width: 100%;
+            }
+            .blog-post-card4-root-class-name3 {
+              max-width: 100%;
+            }
+            .blog-post-card4-root-class-name4 {
+              max-width: 100%;
+            }
+          }
         `}
       </style>
     </>

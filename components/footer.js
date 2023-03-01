@@ -288,6 +288,9 @@ const Footer = (props) => {
               align-items: center;
               justify-content: center;
             }
+            .footer-root-class-name1 {
+              max-width: 100%;
+            }
           }
           @media (max-width: 479px) {
             .footer-footer {

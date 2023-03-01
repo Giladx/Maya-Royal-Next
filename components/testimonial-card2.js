@@ -83,6 +83,12 @@ const TestimonialCard2 = (props) => {
             .testimonial-card2-icon {
               height: var(--dl-size-size-small);
             }
+            .testimonial-card2-root-class-name1 {
+              max-width: 100%;
+            }
+            .testimonial-card2-root-class-name2 {
+              max-width: 100%;
+            }
           }
           @media (max-width: 479px) {
             .testimonial-card2-testimonial-card {

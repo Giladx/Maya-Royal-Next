@@ -105,6 +105,11 @@ const TestimonialCard4 = (props) => {
               margin-left: 0px;
             }
           }
+          @media (max-width: 767px) {
+            .testimonial-card4-root-class-name {
+              max-width: 100%;
+            }
+          }
           @media (max-width: 479px) {
             .testimonial-card4-testimonial-card {
               max-width: 100%;

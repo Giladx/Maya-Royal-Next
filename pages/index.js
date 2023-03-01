@@ -352,6 +352,7 @@ const Home = (props) => {
           }
           @media (max-width: 767px) {
             .home-features {
+              max-width: 100%;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
@@ -359,16 +360,21 @@ const Home = (props) => {
               text-align: center;
             }
             .home-container01 {
+              align-items: center;
               flex-direction: column;
+              justify-content: center;
             }
             .home-gallery {
+              align-items: center;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+              flex-direction: row;
             }
             .home-container04 {
               flex-direction: column;
             }
             .home-blog {
+              max-width: 100%;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
               flex-direction: column;
@@ -379,6 +385,8 @@ const Home = (props) => {
               margin-right: 0px;
             }
             .home-container10 {
+              display: none;
+              max-width: 100%;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
@@ -393,6 +401,10 @@ const Home = (props) => {
             }
             .home-text {
               font-size: 3rem;
+            }
+            .home-container01 {
+              align-items: center;
+              justify-content: center;
             }
             .home-container02 {
               grid-template-columns: 1fr;
