@@ -43,6 +43,11 @@ const FeatureCard4 = (props) => {
             width: 100%;
           }
 
+          @media (max-width: 991px) {
+            .feature-card4-feature-card {
+              max-width: 100%;
+            }
+          }
           @media (max-width: 479px) {
             .feature-card4-feature-card {
               max-width: auto;

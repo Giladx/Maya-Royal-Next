@@ -331,8 +331,17 @@ const Home = (props) => {
             align-items: center;
             justify-content: space-between;
           }
+          @media (max-width: 1600px) {
+            .home-features {
+              max-width: var(--dl-size-size-maxwidth);
+            }
+            .home-text {
+              width: 100%;
+            }
+          }
           @media (max-width: 991px) {
             .home-features {
+              max-width: 100%;
               align-items: center;
             }
             .home-container01 {
