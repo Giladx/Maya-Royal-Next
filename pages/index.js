@@ -46,8 +46,7 @@ const Home = (props) => {
                 }}
               />
             </span>
-            <br></br>
-            <span>Maya Royale</span>
+            <span>MayaRoyale</span>
             <br></br>
           </h1>
           <div data-aos="fade-right" className="home-separator"></div>
@@ -57,8 +56,8 @@ const Home = (props) => {
                 <svg viewBox="0 0 1024 1024" className="home-icon">
                   <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                 </svg>
-                <h2 className="home-text05">The Resort</h2>
-                <span className="home-text06">
+                <h2 className="home-text04">The Resort</h2>
+                <span className="home-text05">
                   <span>
                     Mexico Kosher Resort
                     <span
@@ -113,8 +112,8 @@ const Home = (props) => {
                 <svg viewBox="0 0 1024 1024" className="home-icon2">
                   <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                 </svg>
-                <h2 className="home-text20">The Feeling</h2>
-                <span className="home-text21">
+                <h2 className="home-text19">The Feeling</h2>
+                <span className="home-text20">
                   <span>
                     Come to a destination unlike anything you have experienced.
                     <span
@@ -155,8 +154,8 @@ const Home = (props) => {
                 <svg viewBox="0 0 1024 1024" className="home-icon4">
                   <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                 </svg>
-                <h2 className="home-text29">The Restaurant</h2>
-                <span className="home-text30">
+                <h2 className="home-text28">The Restaurant</h2>
+                <span className="home-text29">
                   <span>
                     Glatt Kosher Restaurants
                     <span
@@ -200,8 +199,8 @@ const Home = (props) => {
                 <svg viewBox="0 0 1024 1024" className="home-icon6">
                   <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                 </svg>
-                <h2 className="home-text40">Top Staff</h2>
-                <span className="home-text41">
+                <h2 className="home-text39">Top Staff</h2>
+                <span className="home-text40">
                   <span>
                     Unparalleled Service
                     <span
@@ -300,12 +299,16 @@ const Home = (props) => {
                   quote="It is an incredible place outside of technology but you still have the accessibility to the phone another concept and the beautiful view of the beach of 10 and the attention and cleanliness 10 with a rustic and pleasant style it is worth visiting very accessible I recommend Easter where the waters are most crystal clear and relaxed magnificent concept."
                   profile_src="https://images.unsplash.com/photo-1614630982169-e89202c5e045?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUyMTk4&amp;ixlib=rb-1.2.1&amp;h=1200"
                   rootClassName="rootClassName1"
+                  picture_src="Joe  A."
+                  name="Joe A."
                 ></TestimonialCard2>
               </div>
               <TestimonialCard2
                 quote="The place is very nice and with a family atmosphere. Very good location, prices vary depending on the area you want to be in. Its attractions are the rest areas as well as the hammocks on the beach and the swing. We rented a small sail boat on the calmocean. We did the tour with dolphins and over 150 birds to see. A very special place."
                 profile_src="https://images.unsplash.com/photo-1542909192-2f2241a99c9d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fHBvcnRyYWl0JTIwYnd8ZW58MHx8fHwxNjI2NDUyMjQw&amp;ixlib=rb-1.2.1&amp;h=1200"
                 rootClassName="rootClassName2"
+                picture_src="Sarah D."
+                name="Debora H."
               ></TestimonialCard2>
             </div>
             <div className="home-container13">
@@ -314,6 +317,7 @@ const Home = (props) => {
                 picture_src="https://images.unsplash.com/photo-1546456073-ea246a7bd25f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDh8fGJsYWNrJTIwbWFufGVufDB8fHx8MTYyNjQ1MjAwOA&amp;ixlib=rb-1.2.1&amp;h=1200"
                 profile_src="https://images.unsplash.com/photo-1553184118-d20774c4c1db?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxwb3J0cmFpdCUyMGJ3fGVufDB8fHx8MTYyNjQ1MjI0MA&amp;ixlib=rb-1.2.1&amp;h=1200"
                 rootClassName="rootClassName"
+                name="Sarah D."
               ></TestimonialCard4>
             </div>
           </div>
@@ -374,11 +378,11 @@ const Home = (props) => {
             height: 2rem;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text05 {
+          .home-text04 {
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text06 {
+          .home-text05 {
             color: var(--dl-color-gray-500);
           }
           .home-feature-card1 {
@@ -396,11 +400,11 @@ const Home = (props) => {
             height: 2rem;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text20 {
+          .home-text19 {
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text21 {
+          .home-text20 {
             color: var(--dl-color-gray-500);
           }
           .home-feature-card2 {
@@ -418,11 +422,11 @@ const Home = (props) => {
             height: 2rem;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text29 {
+          .home-text28 {
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text30 {
+          .home-text29 {
             color: var(--dl-color-gray-500);
           }
           .home-feature-card3 {
@@ -440,11 +444,11 @@ const Home = (props) => {
             height: 2rem;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text40 {
+          .home-text39 {
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text41 {
+          .home-text40 {
             color: var(--dl-color-gray-500);
           }
           .home-image {
@@ -681,28 +685,28 @@ const Home = (props) => {
             .home-feature-card {
               max-width: auto;
             }
-            .home-text05 {
+            .home-text04 {
               font-style: normal;
               font-weight: 600;
             }
             .home-feature-card1 {
               max-width: auto;
             }
-            .home-text20 {
+            .home-text19 {
               font-style: normal;
               font-weight: 600;
             }
             .home-feature-card2 {
               max-width: auto;
             }
-            .home-text29 {
+            .home-text28 {
               font-style: normal;
               font-weight: 600;
             }
             .home-feature-card3 {
               max-width: auto;
             }
-            .home-text40 {
+            .home-text39 {
               font-style: normal;
               font-weight: 600;
             }
