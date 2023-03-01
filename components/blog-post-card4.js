@@ -16,10 +16,14 @@ const BlogPostCard4 = (props) => {
           className="blog-post-card4-image"
         />
         <div className="blog-post-card4-container">
-          <span className="blog-post-card4-text">{props.date}</span>
-          <span className="blog-post-card4-text1">{props.description}</span>
-          <div className="blog-post-card4-separator"></div>
-          <span className="blog-post-card4-text2">{props.label}</span>
+          <a
+            href="https://booking.mayaroyale.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="blog-post-card4-link button"
+          >
+            {props.button}
+          </a>
         </div>
         <div>
           <DangerousHTML
@@ -71,32 +75,14 @@ const BlogPostCard4 = (props) => {
             align-items: center;
             border-radius: 10px;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
             background-color: var(--dl-color-gray-white);
             border-top-left-radius: 0;
             border-top-right-radius: 0;
           }
-          .blog-post-card4-text {
-            color: var(--dl-color-gray-500);
-            margin-top: var(--dl-space-space-unit);
-            font-weight: 700;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .blog-post-card4-text1 {
-            font-size: 1.5rem;
-            text-align: center;
-            font-weight: 300;
-          }
-          .blog-post-card4-separator {
-            width: 40%;
-            height: 1px;
-            margin-top: var(--dl-space-space-unit);
-            margin-bottom: var(--dl-space-space-unit);
-            background-color: var(--dl-color-gray-900);
-          }
-          .blog-post-card4-text2 {
-            color: var(--dl-color-gray-700);
-            font-weight: 700;
+          .blog-post-card4-link {
+            font-size: 1.7em;
+            text-decoration: none;
           }
           .blog-post-card4-root-class-name {
             margin-bottom: 64px;
@@ -127,23 +113,18 @@ const BlogPostCard4 = (props) => {
 }
 
 BlogPostCard4.defaultProps = {
-  description:
-    'Lorem ipsum lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  date: 'JULY 24',
   rootClassName: '',
   image_src:
     'https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHZlbmljZXxlbnwwfHx8fDE2MjYyNzIyOTA&ixlib=rb-1.2.1&w=1000',
   image_alt: 'image',
-  label: 'Food & Drink',
+  button: 'View Our Suites',
 }
 
 BlogPostCard4.propTypes = {
-  description: PropTypes.string,
-  date: PropTypes.string,
   rootClassName: PropTypes.string,
   image_src: PropTypes.string,
   image_alt: PropTypes.string,
-  label: PropTypes.string,
+  button: PropTypes.string,
 }
 
 export default BlogPostCard4
