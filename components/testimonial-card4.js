@@ -21,7 +21,6 @@ const TestimonialCard4 = (props) => {
           />
           <div className="testimonial-card4-container">
             <span className="testimonial-card4-text1">{props.name}</span>
-            <span className="testimonial-card4-text2">{props.role}</span>
           </div>
         </div>
       </div>
@@ -86,18 +85,22 @@ const TestimonialCard4 = (props) => {
             font-weight: 600;
             margin-bottom: 0.25rem;
           }
-          .testimonial-card4-text2 {
-            color: var(--dl-color-gray-500);
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 600;
-          }
 
           @media (max-width: 991px) {
+            .testimonial-card4-testimonial-card {
+              align-self: auto;
+            }
             .testimonial-card4-icon {
-              height: var(--dl-size-size-medium);
+              width: var(--dl-size-size-small);
+              height: auto;
+            }
+            .testimonial-card4-text {
+              padding-top: 0px;
+              padding-bottom: 0px;
             }
             .testimonial-card4-profile {
+              align-self: center;
+              text-align: center;
               padding-left: var(--dl-space-space-halfunit);
               padding-right: var(--dl-space-space-halfunit);
             }
@@ -113,8 +116,16 @@ const TestimonialCard4 = (props) => {
           @media (max-width: 479px) {
             .testimonial-card4-testimonial-card {
               max-width: 100%;
+              align-self: auto;
+              align-items: center;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
+              justify-content: center;
+            }
+            .testimonial-card4-icon {
+              width: 45px;
+              height: auto;
+              align-self: center;
             }
             .testimonial-card4-profile {
               justify-content: center;
@@ -133,7 +144,6 @@ TestimonialCard4.defaultProps = {
   picture_src:
     'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE0fHxwb3J0cmFpdHxlbnwwfHx8fDE2MjYzNzg5NzI&ixlib=rb-1.2.1&h=1200',
   picture_alt: 'John Doe',
-  role: 'Software Engineer',
   quote:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum. Nam pellentesque nulla leo, sagittis vehicula sem commodo nec. Integer egestas, quam eu convallis ultrices, est nisl rutrum tellus, sed posuere velit nisi sit amet ante. In a augue porttitor, porta sapien sed, faucibus felis.',
   rootClassName: '',
@@ -143,7 +153,6 @@ TestimonialCard4.defaultProps = {
 TestimonialCard4.propTypes = {
   picture_src: PropTypes.string,
   picture_alt: PropTypes.string,
-  role: PropTypes.string,
   quote: PropTypes.string,
   rootClassName: PropTypes.string,
   name: PropTypes.string,
