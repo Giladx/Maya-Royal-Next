@@ -27,11 +27,11 @@ const Home = (props) => {
           LinkURL1="/about"
           LinkURL2="https://mayaroyale.com"
           LinkURL4="https://mas-tul.com"
+          MLinkURL1="/about"
           MLinkURL2="https://mayaroyale.com"
           MLinkURL4="https://mas-tul.com"
-          MLinkURL1="/about"
-          MButtonLink1="https://booking.mayaroyale.com"
           LinkButton2="https://booking.mayaroyale.com"
+          MButtonLink1="https://booking.mayaroyale.com"
         ></Header>
         <Hero
           rootClassName="hero-root-class-name"
@@ -77,7 +77,7 @@ const Home = (props) => {
             </div>
             <img
               alt="image"
-              src="https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxtaW5pbWFsaXNtfGVufDB8fHx8MTYyNjQ0NTY1Nw&amp;ixlib=rb-1.2.1&amp;w=500"
+              src="/playground_assets/maarten-van-den-heuvel-siuwr3ucir0-unsplash-500w.jpg"
               data-aos="fade"
               className="home-image"
             />
