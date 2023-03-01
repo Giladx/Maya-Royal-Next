@@ -120,6 +120,9 @@ const GalleryCard2 = (props) => {
             .gallery-card2-container {
               max-width: auto;
             }
+            .gallery-card2-root-class-name4 {
+              min-height: var(--dl-size-size-xlarge);
+            }
           }
         `}
       </style>

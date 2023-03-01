@@ -727,6 +727,9 @@ const Home = (props) => {
             .home-container03 {
               width: 100%;
             }
+            .home-container08 {
+              height: auto;
+            }
             .home-blog {
               max-width: 100%;
               padding-top: var(--dl-space-space-twounits);

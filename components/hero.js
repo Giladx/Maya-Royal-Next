@@ -109,6 +109,7 @@ const Hero = (props) => {
               letter-spacing: 2px;
             }
             .hero-link {
+              font-size: 24px;
               text-align: center;
             }
           }
