@@ -30,8 +30,13 @@ const Home = (props) => {
           MLinkURL2="https://mayaroyale.com"
           MLinkURL4="https://mas-tul.com"
           MLinkURL1="/about"
+          MButtonLink1="https://booking.mayaroyale.com"
+          LinkButton2="https://booking.mayaroyale.com"
         ></Header>
-        <Hero rootClassName="hero-root-class-name"></Hero>
+        <Hero
+          rootClassName="hero-root-class-name"
+          HeroButtonLink="https://booking.mayaroyale.com/"
+        ></Hero>
         <div className="home-features">
           <h1 data-aos="fade-right" className="home-text">
             <span>
