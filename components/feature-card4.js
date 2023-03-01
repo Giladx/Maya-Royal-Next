@@ -27,7 +27,7 @@ const FeatureCard4 = (props) => {
             justify-content: flex-start;
           }
           .feature-card4-icon {
-            fill: #714e90;
+            fill: #09a895;
             width: 2rem;
             height: 2rem;
             margin-bottom: var(--dl-space-space-unit);
@@ -42,7 +42,6 @@ const FeatureCard4 = (props) => {
           .feature-card4-root-class-name {
             width: 100%;
           }
-
           @media (max-width: 991px) {
             .feature-card4-feature-card {
               max-width: 100%;
@@ -55,18 +54,6 @@ const FeatureCard4 = (props) => {
             .feature-card4-text {
               font-style: normal;
               font-weight: 600;
-            }
-            .feature-card4-root-class-name1 {
-              max-width: 100%;
-            }
-            .feature-card4-root-class-name2 {
-              max-width: 100%;
-            }
-            .feature-card4-root-class-name3 {
-              max-width: 100%;
-            }
-            .feature-card4-root-class-name4 {
-              max-width: 100%;
             }
           }
         `}

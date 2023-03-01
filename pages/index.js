@@ -3,7 +3,6 @@ import Head from 'next/head'
 
 import Header from '../components/header'
 import Hero from '../components/hero'
-import FeatureCard4 from '../components/feature-card4'
 import GalleryCard2 from '../components/gallery-card2'
 import BlogPostCard4 from '../components/blog-post-card4'
 import TestimonialCard2 from '../components/testimonial-card2'
@@ -54,26 +53,180 @@ const Home = (props) => {
           <div data-aos="fade-right" className="home-separator"></div>
           <div className="home-container01">
             <div className="home-container02">
-              <FeatureCard4
-                title="The Resort"
-                description="Mexico Kosher Resort On site Synagogue Endless Private Beaches Spa, Gym, Salons Nightly Entertainment Kabalat Shabbat Candle Lighting"
-                rootClassName="rootClassName1"
-              ></FeatureCard4>
-              <FeatureCard4
-                title="The Feeling"
-                description="Come to a destination unlike anything you have experienced  Miles of Untouched beaches &amp; nature that leaves you breathless MayaRoyale offers you the comfort and lifestyle that is important to you Every room is hand crafted by local  Mayans Nightly entertainment and 3 restaurants that will fulfill your desires"
-                rootClassName="rootClassName4"
-              ></FeatureCard4>
-              <FeatureCard4
-                title="The Restaurant"
-                description="Glatt Kosher Restaurants Certified by Kosher MexKosher Kosher Kosher Meats Dairy Fish Breakfast Lunch Dinner 24/7 Room Service"
-                rootClassName="rootClassName3"
-              ></FeatureCard4>
-              <FeatureCard4
-                title="Top Staff"
-                description="Unparalleled Service Enjoy 5 star experiences Genuine Knowledgeable Friendly Experienced Anticipatory"
-                rootClassName="rootClassName2"
-              ></FeatureCard4>
+              <div data-aos="fade-right" className="home-feature-card">
+                <svg viewBox="0 0 1024 1024" className="home-icon">
+                  <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
+                </svg>
+                <h2 className="home-text05">The Resort</h2>
+                <span className="home-text06">
+                  <span>
+                    Mexico Kosher Resort
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    On site Synagogue
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    Endless Private Beaches
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    Spa, Gym, Salons
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    Nightly Entertainment
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>Kabalat Shabbat </span>
+                  <br></br>
+                  <span>Candle Lighting</span>
+                </span>
+              </div>
+              <div data-aos="fade-right" className="home-feature-card1">
+                <svg viewBox="0 0 1024 1024" className="home-icon2">
+                  <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
+                </svg>
+                <h2 className="home-text20">The Feeling</h2>
+                <span className="home-text21">
+                  <span>
+                    Come to a destination unlike anything you have experienced.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    Miles of Untouched beaches &amp; nature that leaves you
+                    breathless.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    MayaRoyale offers you the comfort and lifestyle that is
+                    important to you.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    Every room is hand crafted by local Mayans. Nightly
+                    entertainment and 3 restaurants that will fulfill your
+                    desires.
+                  </span>
+                </span>
+              </div>
+              <div data-aos="fade-right" className="home-feature-card2">
+                <svg viewBox="0 0 1024 1024" className="home-icon4">
+                  <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
+                </svg>
+                <h2 className="home-text29">The Restaurant</h2>
+                <span className="home-text30">
+                  <span>
+                    Glatt Kosher Restaurants
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    Certified by MexKosher
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    Meats Dairy Fish
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>
+                    Breakfast Lunch Dinner
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>24/7 Room Service</span>
+                </span>
+              </div>
+              <div data-aos="fade-right" className="home-feature-card3">
+                <svg viewBox="0 0 1024 1024" className="home-icon6">
+                  <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
+                </svg>
+                <h2 className="home-text40">Top Staff</h2>
+                <span className="home-text41">
+                  <span>
+                    Unparalleled Service
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>Enjoy 5 star experiences </span>
+                  <br></br>
+                  <span>Genuine Knowledgeable </span>
+                  <br></br>
+                  <span>
+                    Friendly &amp; Experienced
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                  <br></br>
+                  <span>Anticipatory</span>
+                </span>
+              </div>
             </div>
             <img
               alt="image"
@@ -122,7 +275,7 @@ const Home = (props) => {
           <div className="home-container09">
             <BlogPostCard4
               label="Club Party"
-              image_src="/playground_assets/15-1500w.webp"
+              image_src="/playground_assets/30-1500w.webp"
               rootClassName="rootClassName2"
             ></BlogPostCard4>
             <BlogPostCard4
@@ -202,6 +355,94 @@ const Home = (props) => {
           .home-container02 {
             display: grid;
             grid-template-columns: 1fr 1fr;
+          }
+          .home-feature-card {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-icon {
+            fill: var(--dl-color-primary-700);
+            width: 2rem;
+            height: 2rem;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text05 {
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text06 {
+            color: var(--dl-color-gray-500);
+          }
+          .home-feature-card1 {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-icon2 {
+            fill: var(--dl-color-primary-700);
+            width: 2rem;
+            height: 2rem;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text20 {
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text21 {
+            color: var(--dl-color-gray-500);
+          }
+          .home-feature-card2 {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-icon4 {
+            fill: var(--dl-color-primary-700);
+            width: 2rem;
+            height: 2rem;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text29 {
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text30 {
+            color: var(--dl-color-gray-500);
+          }
+          .home-feature-card3 {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-unit);
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-icon6 {
+            fill: var(--dl-color-primary-700);
+            width: 2rem;
+            height: 2rem;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text40 {
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-unit);
+          }
+          .home-text41 {
+            color: var(--dl-color-gray-500);
           }
           .home-image {
             width: 450px;
@@ -347,6 +588,18 @@ const Home = (props) => {
             .home-container01 {
               flex-direction: column;
             }
+            .home-feature-card {
+              max-width: 100%;
+            }
+            .home-feature-card1 {
+              max-width: 100%;
+            }
+            .home-feature-card2 {
+              max-width: 100%;
+            }
+            .home-feature-card3 {
+              max-width: 100%;
+            }
             .home-image {
               width: 300px;
               height: 300px;
@@ -421,6 +674,34 @@ const Home = (props) => {
             }
             .home-container02 {
               grid-template-columns: 1fr;
+            }
+            .home-feature-card {
+              max-width: auto;
+            }
+            .home-text05 {
+              font-style: normal;
+              font-weight: 600;
+            }
+            .home-feature-card1 {
+              max-width: auto;
+            }
+            .home-text20 {
+              font-style: normal;
+              font-weight: 600;
+            }
+            .home-feature-card2 {
+              max-width: auto;
+            }
+            .home-text29 {
+              font-style: normal;
+              font-weight: 600;
+            }
+            .home-feature-card3 {
+              max-width: auto;
+            }
+            .home-text40 {
+              font-style: normal;
+              font-weight: 600;
             }
             .home-image {
               width: 250px;
