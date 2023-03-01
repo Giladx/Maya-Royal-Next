@@ -78,7 +78,7 @@ const Home = (props) => {
             <img
               alt="image"
               src="https://images.unsplash.com/photo-1471086569966-db3eebc25a59?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIzfHxtaW5pbWFsaXNtfGVufDB8fHx8MTYyNjQ0NTY1Nw&amp;ixlib=rb-1.2.1&amp;w=500"
-              data-aos="fade-left"
+              data-aos="fade"
               className="home-image"
             />
           </div>
@@ -399,7 +399,6 @@ const Home = (props) => {
               margin-right: 0px;
             }
             .home-container10 {
-              display: none;
               max-width: 100%;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
