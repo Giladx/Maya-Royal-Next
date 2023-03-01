@@ -212,7 +212,11 @@ const About = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
+            .about-container1 {
+              padding: var(--dl-space-space-unit);
+            }
             .about-text01 {
+              font-size: 1.5rem;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
