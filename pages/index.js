@@ -647,6 +647,12 @@ const Home = (props) => {
             .home-container04 {
               flex-direction: column;
             }
+            .home-container05 {
+              width: 100%;
+            }
+            .home-container06 {
+              width: 100%;
+            }
             .home-blog {
               max-width: 100%;
               padding-left: var(--dl-space-space-twounits);
@@ -719,7 +725,7 @@ const Home = (props) => {
               flex-direction: column;
             }
             .home-container03 {
-              width: auto;
+              width: 100%;
             }
             .home-blog {
               max-width: 100%;

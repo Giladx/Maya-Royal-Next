@@ -9,6 +9,11 @@ const GalleryCard2 = (props) => {
         data-aos="fade"
         className={`gallery-card2-gallery-card gradient-box ${props.rootClassName} `}
       >
+        <img
+          alt={props.image_alt}
+          src={props.image_src}
+          className="gallery-card2-image"
+        />
         <div className="gallery-card2-container">
           <div className="gallery-card2-container1">
             <h2 className="gallery-card2-text">{props.title}</h2>
@@ -16,11 +21,6 @@ const GalleryCard2 = (props) => {
             <span className="gallery-card2-text2">SHOW MORE</span>
           </div>
         </div>
-        <img
-          alt={props.image_alt}
-          src={props.image_src}
-          className="gallery-card2-image"
-        />
       </div>
       <style jsx>
         {`
@@ -33,6 +33,17 @@ const GalleryCard2 = (props) => {
             border-radius: 10px;
             flex-direction: column;
             justify-content: center;
+          }
+          .gallery-card2-image {
+            top: 0px;
+            left: auto;
+            right: 0px;
+            width: 100%;
+            bottom: auto;
+            height: 100%;
+            position: absolute;
+            object-fit: cover;
+            border-radius: 10px;
           }
           .gallery-card2-container {
             width: 100%;
@@ -78,17 +89,6 @@ const GalleryCard2 = (props) => {
             font-weight: 700;
             text-transform: uppercase;
           }
-          .gallery-card2-image {
-            top: 0px;
-            left: auto;
-            right: 0px;
-            width: 100%;
-            bottom: auto;
-            height: 100%;
-            position: absolute;
-            object-fit: cover;
-            border-radius: 10px;
-          }
           .gallery-card2-root-class-name {
             flex: 1;
           }
@@ -98,20 +98,27 @@ const GalleryCard2 = (props) => {
             height: 100%;
           }
 
+          @media (max-width: 991px) {
+            .gallery-card2-gallery-card {
+              height: 100%;
+              max-height: auto;
+              min-height: var(--dl-size-size-xlarge);
+            }
+          }
           @media (max-width: 767px) {
             .gallery-card2-gallery-card {
               flex-direction: column;
             }
           }
           @media (max-width: 479px) {
-            .gallery-card2-container {
-              max-width: auto;
-            }
             .gallery-card2-image {
               top: 0px;
               left: 0px;
               right: auto;
               bottom: auto;
+            }
+            .gallery-card2-container {
+              max-width: auto;
             }
           }
         `}
@@ -122,7 +129,7 @@ const GalleryCard2 = (props) => {
 
 GalleryCard2.defaultProps = {
   image_src:
-    'https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxmb29kfGVufDB8fHx8MTYyNjQ0OTIzNQ&ixlib=rb-1.2.1&h=1000',
+    'https://images.unsplash.com/photo-1484980972926-edee96e0960d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxmb29kfGVufDB8fHx8MTYyNjQ0OTIzNQ&ixlib=rb-1.2.1&w=1500',
   rootClassName: '',
   image_alt: 'image',
   title: 'Project Title',
