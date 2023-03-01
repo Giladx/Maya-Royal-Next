@@ -113,6 +113,9 @@ const TestimonialCard4 = (props) => {
             .testimonial-card4-profile {
               justify-content: center;
             }
+            .testimonial-card4-root-class-name {
+              max-width: auto;
+            }
           }
         `}
       </style>

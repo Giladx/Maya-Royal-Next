@@ -100,6 +100,12 @@ const TestimonialCard2 = (props) => {
             .testimonial-card2-text {
               text-align: left;
             }
+            .testimonial-card2-root-class-name1 {
+              max-width: auto;
+            }
+            .testimonial-card2-root-class-name2 {
+              max-width: auto;
+            }
           }
         `}
       </style>

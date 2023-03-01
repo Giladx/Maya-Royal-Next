@@ -416,6 +416,7 @@ const Home = (props) => {
               align-items: center;
             }
             .home-container10 {
+              max-width: auto;
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
