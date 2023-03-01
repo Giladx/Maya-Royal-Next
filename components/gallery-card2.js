@@ -53,7 +53,7 @@ const GalleryCard2 = (props) => {
           .gallery-card2-container1 {
             width: 100%;
             height: 100%;
-            display: flex;
+            display: none;
             padding: var(--dl-space-space-twounits);
             align-items: center;
             border-radius: 10px;
