@@ -318,14 +318,12 @@ const Header = (props) => {
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
           }
           .header-link08 {
             font-size: 4em;
             font-style: normal;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
           }
           .header-link09 {
             font-size: 4em;
