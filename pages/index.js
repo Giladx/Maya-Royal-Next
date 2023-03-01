@@ -277,16 +277,19 @@ const Home = (props) => {
               label="Club Party"
               image_src="/playground_assets/30-1500w.webp"
               rootClassName="rootClassName2"
+              button="View Our Restaurants"
             ></BlogPostCard4>
             <BlogPostCard4
               image_src="/playground_assets/23-1500w.webp"
               rootClassName="rootClassName3"
+              button="View Our Resort"
             ></BlogPostCard4>
           </div>
           <BlogPostCard4
             date="JULY 10"
             image_src="/playground_assets/42-1500w.webp"
             rootClassName="rootClassName4"
+            button="Tour Our Bars"
           ></BlogPostCard4>
         </div>
         <div className="home-testimonial">
