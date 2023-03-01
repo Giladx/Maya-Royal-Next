@@ -86,6 +86,7 @@ const TestimonialCard2 = (props) => {
           }
           @media (max-width: 479px) {
             .testimonial-card2-testimonial-card {
+              max-width: 100%;
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -101,10 +102,10 @@ const TestimonialCard2 = (props) => {
               text-align: left;
             }
             .testimonial-card2-root-class-name1 {
-              max-width: auto;
+              max-width: 100%;
             }
             .testimonial-card2-root-class-name2 {
-              max-width: auto;
+              max-width: 100%;
             }
           }
         `}

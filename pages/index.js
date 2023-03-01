@@ -156,7 +156,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <Footer></Footer>
+        <Footer rootClassName="footer-root-class-name1"></Footer>
       </div>
       <style jsx>
         {`
@@ -384,6 +384,7 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-features {
+              max-width: 100%;
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -407,6 +408,7 @@ const Home = (props) => {
               width: auto;
             }
             .home-blog {
+              max-width: 100%;
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
@@ -416,11 +418,15 @@ const Home = (props) => {
               align-items: center;
             }
             .home-container10 {
-              max-width: auto;
+              max-width: 100%;
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-container11 {
+              align-items: center;
+              justify-content: center;
             }
           }
         `}

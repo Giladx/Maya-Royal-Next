@@ -44,9 +44,24 @@ const FeatureCard4 = (props) => {
           }
 
           @media (max-width: 479px) {
+            .feature-card4-feature-card {
+              max-width: auto;
+            }
             .feature-card4-text {
               font-style: normal;
               font-weight: 600;
+            }
+            .feature-card4-root-class-name1 {
+              max-width: 100%;
+            }
+            .feature-card4-root-class-name2 {
+              max-width: 100%;
+            }
+            .feature-card4-root-class-name3 {
+              max-width: 100%;
+            }
+            .feature-card4-root-class-name4 {
+              max-width: 100%;
             }
           }
         `}

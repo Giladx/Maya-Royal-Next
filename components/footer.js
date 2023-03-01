@@ -218,6 +218,7 @@ const Footer = (props) => {
           .footer-root-class-name {
             max-width: var(--dl-size-size-maxwidth);
           }
+
           @media (max-width: 991px) {
             .footer-footer {
               flex-direction: column;
@@ -334,6 +335,9 @@ const Footer = (props) => {
             }
             .footer-text15 {
               text-align: center;
+            }
+            .footer-root-class-name1 {
+              max-width: auto;
             }
           }
         `}

@@ -107,6 +107,7 @@ const TestimonialCard4 = (props) => {
           }
           @media (max-width: 479px) {
             .testimonial-card4-testimonial-card {
+              max-width: 100%;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -114,7 +115,7 @@ const TestimonialCard4 = (props) => {
               justify-content: center;
             }
             .testimonial-card4-root-class-name {
-              max-width: auto;
+              max-width: 100%;
             }
           }
         `}
