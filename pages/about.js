@@ -188,9 +188,11 @@ const About = (props) => {
           }
           @media (max-width: 767px) {
             .about-hero {
+              max-width: 100%;
               align-items: center;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+              justify-content: center;
             }
             .about-text {
               text-align: center;

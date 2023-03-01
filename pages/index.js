@@ -31,7 +31,7 @@ const Home = (props) => {
           MLinkURL4="https://mas-tul.com"
           MLinkURL1="/about"
         ></Header>
-        <Hero></Hero>
+        <Hero rootClassName="hero-root-class-name"></Hero>
         <div className="home-features">
           <h1 data-aos="fade-right" className="home-text">
             <span>

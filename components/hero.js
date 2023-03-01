@@ -5,7 +5,7 @@ import PropTypes from 'prop-types'
 const Hero = (props) => {
   return (
     <>
-      <div data-aos="fade" className="hero-hero">
+      <div data-aos="fade" className={`hero-hero ${props.rootClassName} `}>
         <h1 data-aos="fade-down" className="hero-text">
           {props.Heading}
         </h1>
@@ -70,6 +70,7 @@ const Hero = (props) => {
           .hero-link:hover {
             transform: scale(1.02);
           }
+
           @media (max-width: 1200px) {
             .hero-link {
               color: var(--dl-color-gray-white);
@@ -78,16 +79,25 @@ const Hero = (props) => {
           }
           @media (max-width: 767px) {
             .hero-hero {
+              max-width: 100%;
+              align-items: center;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+              justify-content: center;
+            }
+            .hero-root-class-name {
+              max-width: 100%;
+              align-self: center;
             }
           }
           @media (max-width: 479px) {
             .hero-hero {
+              align-items: center;
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+              justify-content: center;
             }
             .hero-text {
               max-width: 100%;
@@ -112,12 +122,14 @@ Hero.defaultProps = {
   HeroButtonLink: '',
   Heading: 'Mexico Kosher Resort',
   HeroButtonText: 'Schedule  Your Vacation',
+  rootClassName: '',
 }
 
 Hero.propTypes = {
   HeroButtonLink: PropTypes.string,
   Heading: PropTypes.string,
   HeroButtonText: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Hero
