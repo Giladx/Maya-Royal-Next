@@ -98,6 +98,9 @@ const Hero = (props) => {
               margin-bottom: var(--dl-space-space-threeunits);
               letter-spacing: 2px;
             }
+            .hero-link {
+              text-align: center;
+            }
           }
         `}
       </style>
