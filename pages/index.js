@@ -412,6 +412,9 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
+            .home-testimonial {
+              align-items: center;
+            }
             .home-container10 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
