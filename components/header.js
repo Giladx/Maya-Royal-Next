@@ -273,8 +273,8 @@ const Header = (props) => {
             padding: 32px;
             z-index: 100;
             position: fixed;
-            transform: translateY(-100%);
-            transition: 0.8s;
+            transform: translateX(100%);
+            transition: 0.5s;
             flex-direction: column;
             justify-content: space-between;
             background-color: #fff;
