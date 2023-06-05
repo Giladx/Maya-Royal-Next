@@ -229,7 +229,7 @@ const Home = (props) => {
             </div>
             <img
               alt="image"
-              src="/playground_assets/maarten-van-den-heuvel-siuwr3ucir0-unsplash-500w.jpg"
+              src="/maarten-van-den-heuvel-siuwr3ucir0-unsplash-500w.jpg"
               data-aos="fade"
               className="home-image"
             />
@@ -240,27 +240,27 @@ const Home = (props) => {
             <div className="home-container04">
               <div className="home-container05">
                 <GalleryCard2
-                  image_src="/playground_assets/1-1500h.webp"
+                  image_src="/1-1500h.webp"
                   rootClassName="rootClassName2"
                 ></GalleryCard2>
               </div>
               <div className="home-container06">
                 <GalleryCard2
-                  image_src="/playground_assets/suite-1500w.webp"
+                  image_src="/suite-1500w.webp"
                   rootClassName="rootClassName3"
                 ></GalleryCard2>
               </div>
             </div>
             <div className="home-container07">
               <GalleryCard2
-                image_src="/playground_assets/10_19%20-%20foto1-1500h.jpg"
+                image_src="/10_19%20-%20foto1-1500h.jpg"
                 rootClassName="rootClassName"
               ></GalleryCard2>
             </div>
           </div>
           <div className="home-container08">
             <GalleryCard2
-              image_src="/playground_assets/12-1500h.webp"
+              image_src="/12-1500h.webp"
               rootClassName="rootClassName4"
             ></GalleryCard2>
           </div>
@@ -268,26 +268,26 @@ const Home = (props) => {
         <div className="home-blog">
           <BlogPostCard4
             label="Travel"
-            image_src="/playground_assets/10-1500w.webp"
+            image_src="/10-1500w.webp"
             rootClassName="rootClassName1"
           ></BlogPostCard4>
           <div className="home-container09">
             <BlogPostCard4
               label="Club Party"
               button="View Our Restaurants"
-              image_src="/playground_assets/30-1500w.webp"
+              image_src="/30-1500w.webp"
               rootClassName="rootClassName2"
             ></BlogPostCard4>
             <BlogPostCard4
               button="View Our Resort"
-              image_src="/playground_assets/23-1500w.webp"
+              image_src="/23-1500w.webp"
               rootClassName="rootClassName3"
             ></BlogPostCard4>
           </div>
           <BlogPostCard4
             date="JULY 10"
             button="Tour Our Bars"
-            image_src="/playground_assets/42-1500w.webp"
+            image_src="/42-1500w.webp"
             rootClassName="rootClassName4"
           ></BlogPostCard4>
         </div>
@@ -545,7 +545,7 @@ const Home = (props) => {
             display: flex;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/2_16%20-%20foto-1500w.jpg');
+            background-image: url('/2_16%20-%20foto-1500w.jpg');
             background-repeat: no-repeat;
             background-position: center;
             background-attachment: fixed;

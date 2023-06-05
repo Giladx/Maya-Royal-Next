@@ -86,7 +86,7 @@ const About = (props) => {
           </div>
           <img
             alt="image"
-            src="/playground_assets/map-1500w.webp"
+            src="/map-1500w.webp"
             data-aos="fade"
             className="about-image"
           />
@@ -114,7 +114,7 @@ const About = (props) => {
             background-size: cover;
             justify-content: center;
             background-color: #d9d9d9;
-            background-image: url('/playground_assets/pastedgraphic-3-1500h.png');
+            background-image: url('/pastedgraphic-3-1500h.png');
             background-repeat: no-repeat;
             background-position: bottom;
             background-attachment: fixed;

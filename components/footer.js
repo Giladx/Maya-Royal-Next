@@ -367,7 +367,7 @@ Footer.defaultProps = {
   text4: 'Pricing',
   text13: 'hello@maya.resort',
   image_alt: 'logo',
-  image_src: '/playground_assets/mayalogo-1500h.png',
+  image_src: '/mayalogo-1500h.png',
   text3: 'Features',
 }
 

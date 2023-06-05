@@ -34,7 +34,7 @@ const Hero = (props) => {
             flex-direction: column;
             background-size: cover;
             justify-content: center;
-            background-image: url('/playground_assets/pastedgraphic-3-1500w.png');
+            background-image: url('/pastedgraphic-3-1500w.png');
             background-repeat: no-repeat;
             background-position: center;
             background-attachment: fixed;
