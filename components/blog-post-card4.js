@@ -1,6 +1,6 @@
 import React from 'react'
 
-import DangerousHTML from 'dangerous-html/react'
+import Script from 'dangerous-html/react'
 import PropTypes from 'prop-types'
 
 const BlogPostCard4 = (props) => {
@@ -26,7 +26,7 @@ const BlogPostCard4 = (props) => {
           </a>
         </div>
         <div>
-          <DangerousHTML
+          <Script
             html={`<style>
     .gradient-box {
     box-sizing: border-box;
@@ -40,7 +40,7 @@ const BlogPostCard4 = (props) => {
   }
 </style>
 `}
-          ></DangerousHTML>
+          ></Script>
         </div>
       </div>
       <style jsx>

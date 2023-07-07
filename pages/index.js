@@ -373,7 +373,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-icon {
-            fill: var(--dl-color-primary-700);
+            fill: var(--dl-color-gray-black);
             width: 2rem;
             height: 2rem;
             margin-bottom: var(--dl-space-space-unit);
@@ -395,7 +395,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-icon2 {
-            fill: var(--dl-color-primary-700);
+            fill: var(--dl-color-gray-black);
             width: 2rem;
             height: 2rem;
             margin-bottom: var(--dl-space-space-unit);
@@ -417,7 +417,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-icon4 {
-            fill: var(--dl-color-primary-700);
+            fill: var(--dl-color-gray-black);
             width: 2rem;
             height: 2rem;
             margin-bottom: var(--dl-space-space-unit);
@@ -439,7 +439,7 @@ const Home = (props) => {
             justify-content: flex-start;
           }
           .home-icon6 {
-            fill: var(--dl-color-primary-700);
+            fill: var(--dl-color-gray-black);
             width: 2rem;
             height: 2rem;
             margin-bottom: var(--dl-space-space-unit);
